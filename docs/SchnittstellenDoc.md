@@ -40,3 +40,5 @@
 | `ComputeFillLevel(pressure)`   | float            | berechnet Füllstand in % aus Sensordaten
 | `CheckThresholds(fillPercent)` |                  | setzt Warn-/Störstatus (ob Grenze bereitserreicht oder nicht)           
 | `DetectError(bagStatus)`       |                  | erkennt Fehler an Beutel   -> setzt Fehlerzustand    
+| `stopUsage()`                  |                  | wird bei fehlerhafter Benutzung oder erreichter Störgrenze aufgerufen -> verhindert Nutzung
+| `startUsage()`                 |                  | gibt Benutzung wieder frei

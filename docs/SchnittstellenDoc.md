@@ -30,7 +30,7 @@
 | **Methoden**                  | **Rückgabewert** | **Beschreibung**                         
 | ----------------------------- | -----------------|----------------------------------- 
 | `ReadMemory(address)`         | uint8_t          | liest Byte aus persistentem Speicher (um bereits bestehende Daten aus zu lesen z.B. Füllstand nach letzter Nutzung)
-| `WriteMemory(address, value)` |                  | schreibt Byte (um Daten zu Speicher, die nach Abschalten des Geräts noh gebraucht werden z.B. Füllstand nach letzter Nutzung)                                
+| `WriteMemory(address, value)` |                  | schreibt Byte (um Daten zu Speicher, die nach Abschalten des Geräts nach gebraucht werden z.B. Füllstand nach letzter Nutzung)                                
 | `SystemInit()`                |                  | Initialisierung von Sensoren und Display       
 
 # fillLevelLogik

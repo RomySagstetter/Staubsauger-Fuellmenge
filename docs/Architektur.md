@@ -2,9 +2,7 @@
 
 ## Software Architektur
 
-### Diagramm
-
-
+![SoftwareKomponenten](../docs/Graphiken/Komponentendiagramm.png)
 
 ### Beschreibung
 

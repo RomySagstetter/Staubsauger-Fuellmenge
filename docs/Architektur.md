@@ -2,7 +2,7 @@
 
 ## Software Architektur
 
-![SoftwareKomponenten](../docs/Graphiken/Komponentendiagramm.png)
+![SoftwareKomponenten](/docs/Graphiken/Komponentendiagramm.png)
 
 ### Unterteilung in vier Schichten
 

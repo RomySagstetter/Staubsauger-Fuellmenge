@@ -1,0 +1,1 @@
+#Requirements für Staubsauger: Füllbeutelanzeige

@@ -1,3 +1,3 @@
 # Staubsauger-Fuellmenge
 
-[Teilfunktionalitäten](/docs/Teilfunkionalitaeten.md)
+[Teilfunktionalitäten](Staubsauger-Fuellmenge/docs/Teilfunktionalitaeten.md)

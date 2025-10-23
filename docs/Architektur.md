@@ -24,9 +24,9 @@
 
 | **Komponenten**     | **Requirements**
 |---------------------|-----------------------------------------
-| userInterface       | 1.3, 2.1, 2.2, 2.4, 2.5, 2.6, 2.7, 2.9, 4.1, 4.2, 4.3, 5.2, 5.3
+| userInterface       | 1.3, 2.1, 2.2, 2.4, 2.5, 2.6, 2.7, 2.9, 4.1, 4.2, 4.3, 5.2, 5.3, 6.1, 6.2
 | fillLevelLogik      | 1.2, 2.2, 2.8, 3.1, 3.2, 3.3, 5.1, 6.1, 6.2
-| hardwareAbstraction | 3.4, 7.1, 1.1
+| hardwareAbstraction | 3.4, 7.1, 1.1, 3.3, 5.1, 6.1, 6.2
 | persistanceManager  | 2.3
 
 ## Schnittstellen

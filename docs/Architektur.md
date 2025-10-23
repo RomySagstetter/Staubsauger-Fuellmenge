@@ -31,11 +31,14 @@
 
 ## Schnittstellen
 
-| **Ziel**         | **Quelle**       | **Schnittstellen**
-|------------------|------------------|---------------------------
-| `userInterface`  | `fillLevelLogik` | [fillLevelPercent()](), warning(), 
-| `fillLevelLogik` | `userInterface`  | 
+| **Ziel**              | **Quelle**             | **Schnittstellen**
+|-----------------------|------------------------|---------------------------
+| `userInterface`       | `fillLevelLogik`       | fillLevelPercent(), crossBoundary(), errorCode(), UpdateDisplay(fillLevelPercent(), crossBoundary(), errorCode()), showMessage(text, type)
+| `fillLevelLogik`      | `hardwareAbstraction`  | GetPressure(), GetBagStatus(), SensorDataUpdated()
+| `persistance Manager` | `fillLevelLogik`       | LoadCalibrationData(), SaveCalibrationData(), LoadThresholds(), SaveThresholds()
+| `persistenceManager`  | `hardwareAbstraction`  | ReadMemory(address), WriteMemory(address, value), SystemInit()
+| `fillLevelLogik`      | `fillLevelLogik`       | ComputeFillLevel(pressure), CheckThresholds(fillPercent), DetectError(bagStatus)
 
 ### Beschreibung der Schnittstellen
 
-[Schnittstellendokumentation](/docs/SchnittstellenDoc)
+[Schnittstellendokumentation](/docs/SchnittstellenDoc.md)

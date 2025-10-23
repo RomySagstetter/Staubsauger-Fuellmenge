@@ -18,7 +18,7 @@
 | userInterface        | Präsentationsschicht, Darstellung, Barrierefreiheit   | Eindeutige Anzeige, Barrierefreiheit, User-Interaktion, Warnung, Helligkeit
 | fillLevelLogik       | Berechnung, Zustände, Fehler                          | Füllstandsberechnung, 90/100%-Grenzen, Fehlerlogik, Echtzeit, User-Interaktionen handeln
 | hardwareAbstraction  | Hardware-Interface, Sensorik, Ansteuerung, Robustheit | Zugriff auf Sensoren, Zugriff auf Display/LEDs
-| persistanceManager   | Kalibrierung, Speicherung                             | persistente Werte speichern (z.B. Füllstand bvor Gerät abgeschalten wurde), Grenzwerte, Logs, Dimm-Level
+| persistanceManager   | Kalibrierung, Speicherung                             | persistente Werte speichern (z.B. Füllstand bvor Gerät abgeschalten wurde), Grenzwerte, Logs, Dimm-Level 
 
 ### Zuordnung Requirements
 

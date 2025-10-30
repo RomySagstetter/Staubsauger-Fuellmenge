@@ -67,7 +67,7 @@
     <tr>
     <tr>
       <td>5.1</td>
-      <td>Schutz bei erreichen der Störgrenze</td>
+      <td>Schutz bei Erreichen der Störgrenze</td>
       <td>Gerätefunktion wird automatisch abgestellt. Gerät nicht nutzbar bis leerer Beutel eingestzt wird</td>
       <td>P7</td>
     </tr>

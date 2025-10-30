@@ -21,7 +21,7 @@ Die ausgewählten Requirements umfassen nur die aller nötigsten für eine funkt
 - Sensordaten{ Füllstand, maxFüllstand }
 
 **Methoden**
-- bool NotAus
+- bool NotAus()
 - Sensordaten getSensordaten()
 
 ### DatenVerwaltung

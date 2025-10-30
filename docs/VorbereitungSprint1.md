@@ -52,7 +52,7 @@ Die ausgewählten Requirements umfassen nur die aller nötigsten für eine funkt
 
 ## Tracability
 
-[Tracability-Matrix](/docs/Tracability.md)
+![Tracability-Matrix](/docs/Tracability.md)
 
 ## Diagramme
 

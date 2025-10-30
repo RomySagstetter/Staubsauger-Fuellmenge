@@ -15,4 +15,4 @@
 
 ## Übung vom 30.10.2025
 
-- [Vorbereitung für Sprint 1](/doc/VorbereitungSprint1.md)
+- [Vorbereitung für Sprint 1](/docs/VorbereitungSprint1.md)

@@ -13,6 +13,10 @@
 
 Die ausgewählten Requirements umfassen nur die aller nötigsten für eine funktionierende Anzeige
 
+### Software Design Komponenten
+
+
+
 ### Tracability
 
 [Tracability-Matrix](/docs/Tracability.md)

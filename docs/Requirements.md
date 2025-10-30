@@ -71,12 +71,6 @@
       <td>Gerätefunktion wird automatisch abgestellt. Gerät nicht nutzbar bis leerer Beutel eingestzt wird</td>
       <td>P7</td>
     </tr>
-    <tr>
-      <td>5.2</td>
-      <td>Schutz bei falscher Benutzung</td>
-      <td>Gerätefunktion wird automatisch verhindert, bis ein Beutel eingesetzt oder richtig eingesetzt wird</td>
-      <td>P7</td>
-    </tr>
   </tbody>
 </table>
 

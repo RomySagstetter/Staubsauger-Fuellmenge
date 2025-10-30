@@ -16,8 +16,9 @@
 | **Komponente**       | **Rolle**                                             | **Verantwortlichkeiten**
 |----------------------|-------------------------------------------------------|---------------------------------------------------------------------------------
 | Anzeige              | Präsentationsschicht, Darstellung, Barrierefreiheit   | Eindeutige Anzeige, Barrierefreiheit, User-Interaktion, Warnung, Helligkeit
-| DatenVerwaltung      | Berechnung, Zustände, Fehler                          | Aufwertung der Daten für Anzeige
-| Füllstandsensor      | Hardware-Interface, Sensorik, Ansteuerung, Robustheit | Zugriff auf Sensoren, Zugriff auf Display/LEDs, Füllstandsberechnung, 90/100%-Grenzen, Fehlerlogik, Echtzeit
+| AnzeigeVerwaltung    | Kommunikation zwischen DatenVerwaltung und Anzeige    | Aufwertung der Daten für Anzeige
+| DatenVerwaltung      | Hardware-Interface, Ansteuerung, Robustheit, Berechnung, Zustände, Fehler  | Zugriff auf Sensoren, Füllstandsberechnung, 90/100%-Grenzen, Fehlerlogik, Echtzeit
+| Füllstandsensor      | Sensorik                                              | Übermittlung Sensordaten
 
 ### Zuordnung Requirements
 

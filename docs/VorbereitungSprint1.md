@@ -58,7 +58,7 @@ Die ausgewählten Requirements umfassen nur die aller nötigsten für eine funkt
 
 ### Klassendiagramm / UML
 
-
+[](/doc/Graphiken/UML.png)
 
 ### Sequenzdiagramm
 

@@ -2,7 +2,7 @@
 
 | **Methoden**                                        | **Rückgabewert** | **Beschreibung**                                 
 | ----------------------------------------------------------- | -----------------|--------------------------------------------- 
-| `fillLevelPercent()`                                          | float            | berechneter Füllstand in % (Füllstand wird in fillLevelLogik berechnet)                    
+| `fillLevelPercent()`                                          | float            | berechneter Füllstand in % (Füllstand wird in fillLevelLogik berechnet)                 
 | `crossBoundary()`                                             | bool             | gibt true aus, wenn Warngrenze überschritten                     
 | `errorCode()`                                                 | enum             | gibt Fehlerzustand aus ( Beutel korrekt, nicht korrekt, garnicht eingesetzt -> enum Fehlerzustand{NO_BAG, BAG_MISPLACED, OK}
 | `UpdateDisplay(fillLevelPercent, crossBoundary, errorCode)` |                  | aktualisiert Anzeige               

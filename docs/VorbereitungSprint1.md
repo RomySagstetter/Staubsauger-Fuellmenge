@@ -9,7 +9,7 @@
 - 2.4 Warnung bei Erreichen der Störgrenze
 - 3.2 Störgrenze definieren
 - 4.2 Warnung bei Erreichen der Störgrenze
-- 5.1 Scutz bei Erreichen der Störgrenze
+- 5.1 Schutz bei Erreichen der Störgrenze
 
 Die ausgewählten Requirements umfassen nur die aller nötigsten für eine funktionierende Anzeige
 

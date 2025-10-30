@@ -1,5 +1,5 @@
 # Staubsauger-Fuellmenge
-**bitte die Dokumente zuende lesen**
+****
 
 ## Übung vom 16.10.2025 (überabeitet)
 

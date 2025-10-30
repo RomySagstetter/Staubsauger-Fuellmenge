@@ -13,15 +13,51 @@
 
 Die ausgewählten Requirements umfassen nur die aller nötigsten für eine funktionierende Anzeige
 
-### Software Design Komponenten
+## Software Design Komponenten
 
+### Füllstandsensor
 
+**Attribute**
+- Sensordaten{ Füllstand, maxFüllstand }
 
-### Tracability
+**Methoden**
+- bool NotAus
+- Sensordaten getSensordaten()
+
+### DatenVerwaltung
+
+**Attribute**
+- Füllstandsensor Sensor
+- AnzeigeVerwaltung anzeigeVerwaltung
+
+**Methoden**
+- int Füllstand(Sensor.getSensordaten())
+- void NotAus(anzeigeVerwaltung.GrenzeErreicht()) -> Nutz NotAus von wartet auf Antwort
+
+### AnzeigeVerwaltung
+
+**Attribute**
+- DatenVerwaltung datenVerwaltung
+
+**Methoden**
+- bool GrenzeErreicht(datenVerwaltung.Füllstand())
+
+### Anzeige
+
+**Attribute**
+- AnzeigeVerwaltung anzeigeVerwaltung
+
+**Methoden**
+- void showAnzeige(anzeigeVerwaltung.GrenzeErreicht())
+
+## Tracability
 
 [Tracability-Matrix](/docs/Tracability.md)
 
+## Diagramme
+
 ### Klassendiagramm / UML
+
 
 
 ### Sequenzdiagramm

@@ -65,31 +65,14 @@
       <td>L3</td>
     </tr>
     <tr>
+    <tr>
       <td>5.1</td>
-      <td>automatische Fehlererkennung</td>
-      <td>Sensoren erkennen, wenn kein Beutel eingesetzt wurde. Sensoren erkennen, wenn Beutel falsch eingesetzt wurde.</td>
-      <td>L2, P2, T5</td>
-    </tr>
-    <tr>
-      <td>5.2</td>
-      <td>Warnung bei falsch eingestztem Beutel</td>
-      <td>Es gibt ein visueles Signal für den Nutzer, falls Beutel falsch eingesetzt wurde</td>
-      <td>L2, P2, T5</td>
-    </tr>
-    <tr>
-      <td>5.3</td>
-      <td>Warnung bei nicht eingestztem Beutel</td>
-      <td>Es gibt ein visueles Signal für den Nutzer, falls kein Beutel eingesetzt wurde</td>
-      <td>L2, P2, T5</td>
-    </tr>
-    <tr>
-      <td>6.1</td>
       <td>Schutz bei erreichen der Störgrenze</td>
       <td>Gerätefunktion wird automatisch abgestellt. Gerät nicht nutzbar bis leerer Beutel eingestzt wird</td>
       <td>P7</td>
     </tr>
     <tr>
-      <td>6.2</td>
+      <td>5.2</td>
       <td>Schutz bei falscher Benutzung</td>
       <td>Gerätefunktion wird automatisch verhindert, bis ein Beutel eingesetzt oder richtig eingesetzt wird</td>
       <td>P7</td>
@@ -176,7 +159,7 @@
       <td></td>
     </tr>
     <tr>
-      <td>7.1</td>
+      <td>6.1</td>
       <td>Energieeffizienz</td>
       <td>Die Füllstandsanzeige soll energieeffizient funktionieren</td>
       <td></td>

@@ -4,6 +4,9 @@
 
 ![SoftwareKomponenten](/docs/Graphiken/Komponentendiagramm.png)
 
+Alternative:
+![SoftwareKomponenten](/docs/Graphiken/Komponenten.jpg)
+
 ### Unterteilung in vier Schichten
 
 - userInterface

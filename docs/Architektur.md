@@ -24,10 +24,10 @@
 
 | **Komponenten**     | **Requirements**
 |---------------------|-----------------------------------------
-| Anzeige             | 1.3, 2.1, 2.2, 2.4, 2.5, 2.6, 2.7, 2.9, 4.1, 4.2, 4.3, 5.2, 5.3, 6.1, 6.2
-| fillLevelLogik      | 1.2, 2.2, 2.8, 3.1, 3.2, 3.3, 5.1, 6.1, 6.2
-| hardwareAbstraction | 3.4, 7.1, 1.1, 3.3, 5.1, 6.1, 6.2
-| persistanceManager  | 2.3
+| Anzeige             | 1.3, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, 3.4, 4.1, 4.2, 
+| AnzeigeVerwaltung   | 2.2, 2.3, 2.8, 3.1, 3.2, 3.3, 3.4, 
+| DatenVerwaltung     | 1.2, 5.1, 
+| Füllstandsensor     | 1.1, 3.4, 
 
 ## Schnittstellen
 

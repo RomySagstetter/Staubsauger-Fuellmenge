@@ -8,11 +8,11 @@
 - [Lastenheft](/docs/Lastenheft.md)
 - [Pflichtenheft](/docs/Pflichtenheft.md)
 
-## Übung vom 23.10.2025
+## Übung vom 23.10.2025 (überarbeitet)
 
 - [Tracability](/docs/Tracability.md)
 - [Architektur](/docs/Architektur.md)
 
-## Übung vom 30.10.2025
+## Übung vom 30.10.2025 (unfertig)
 
 - [Vorbereitung für Sprint 1](/docs/VorbereitungSprint1.md)

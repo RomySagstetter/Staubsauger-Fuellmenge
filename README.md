@@ -23,4 +23,5 @@
 - [Modulstrucktur](/src)
 - Design Pattern: Singelton
 -> ändern des Klassendiagramms
- ![](/docs/Graphiken/UMLSingelton.png)
+  
+![](/docs/Graphiken/UMLSingelton.png)

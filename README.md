@@ -16,3 +16,7 @@
 ## Übung vom 30.10.2025 (unfertig)
 
 - [Vorbereitung für Sprint 1](/docs/VorbereitungSprint1.md)
+
+## Übung vom 6.11.2025
+
+- [](/docs/)

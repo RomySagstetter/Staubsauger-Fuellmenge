@@ -22,3 +22,4 @@
 
 - [Modulstrucktur](/src)
 - Design Pattern: Singelton
+-> ändern des Klassendiagramms

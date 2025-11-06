@@ -21,3 +21,4 @@
 ## Übung vom 6.11.2025
 
 - [Modulstrucktur](/src)
+- Design Pattern: Singelton

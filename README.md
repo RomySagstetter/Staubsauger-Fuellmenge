@@ -16,7 +16,7 @@
 ## Übung vom 30.10.2025 (unfertig)
 
 - [Vorbereitung für Sprint 1](/docs/VorbereitungSprint1.md)
-- [[Tracability](/docs/Tracability.md)
+- [Tracability](/docs/Tracability.md)
 
 ## Übung vom 6.11.2025
 

@@ -50,7 +50,7 @@ Die ausgewählten Requirements umfassen nur die aller nötigsten für eine funkt
 **Methoden**
 - void showAnzeige(anzeigeVerwaltung.GrenzeErreicht())
 
-## Tracability
+## [Tracability](/docs/Tracability.md)
 
 [Tracability-Matrix](/docs/Tracability.md)
 
@@ -58,7 +58,7 @@ Die ausgewählten Requirements umfassen nur die aller nötigsten für eine funkt
 
 ### Klassendiagramm / UML
 
-![](/docs/Graphiken/UML.png)
+![](/docs/Graphiken/UMLneu.png)
 
 ### Sequenzdiagramm
 

@@ -15,6 +15,7 @@ Während der Implementierung für den ersten Sprint haben sich in dem Softwarede
 |-----------------------------------------------------|---------------------------------------
 | fehlende Möglichkeit den NotStopp wieder zu beenden | `stoppNotAus()` in `DatenVerwaltung` und `Fuellstandsensor`
 | Füllbeutel kann nicht gewechselt werden             | `FuellbeutelWechseln()` in `Anzeige`
+| `showAnzeige`reicht nicht aus für sinnvolle Anzeige | um `Anzeige` nicht zu überladen wird das GUI in eine eigene Klasse `GUI` ausgealgert 
 
 ### UML mit den nötigen Änderungen
 

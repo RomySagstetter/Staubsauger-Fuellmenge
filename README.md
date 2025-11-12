@@ -23,8 +23,7 @@
 - [Modulstrucktur](/src)
 - Design Pattern: Singelton
 
- 🠖 ändern des Klassendiagramms
-  
+ 🠖 ändern des Klassendiagramms 
 ![](/docs/Graphiken/UMLSingelton.png)
 
 ## Übung vom 13.11.2025
@@ -34,6 +33,6 @@
 - [verwendetes Tutorial für Singelton in Java](https://www.geeksforgeeks.org/java/singleton-class-java/)
 
 🠖 überarbeitetes UML-Diagramm
-![](/docs/Graphiken/)
+![](/docs/Graphiken/UML-Implementierung1.png)
 
 *Anmerkung für Sprint2: AnzeigeVerwaltung auf Anzeige und DatenVerwaltung aufteilen*

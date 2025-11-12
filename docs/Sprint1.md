@@ -20,4 +20,4 @@ Während der Implementierung für den ersten Sprint haben sich in dem Softwarede
 
 ### UML mit den nötigen Änderungen
 
-![](/docs/Graphiken/UML-Implementierung1.png)
+![](/docs/Graphiken/UMLImplementierung1.png)

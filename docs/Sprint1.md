@@ -1,5 +1,5 @@
 # Sprint1
-### [Vorbereitung für Sprint1](/docs/VorbereitungSprint1)
+[Vorbereitung für Sprint1](/docs/VorbereitungSprint1)
 
 ## das ist neu
 

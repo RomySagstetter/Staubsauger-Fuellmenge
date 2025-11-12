@@ -34,4 +34,5 @@
 
 *Anmerkung für Sprint2: AnzeigeVerwaltung auf Anzeige und DatenVerwaltung aufteilen*
 - [Zusammenfassung von Sprint1](/docs/Sprint1.md)
-- 🠖 überarbeitetes UML-Diagramm in Sprint1
+
+🠖 überarbeitetes UML-Diagramm in Sprint1

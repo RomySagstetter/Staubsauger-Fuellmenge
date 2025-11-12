@@ -31,4 +31,5 @@
 
 - IDE: eclipse (java)
 - [Code für Sprint 1](/src)
+
 *Anmerkung für Sprint2: AnzeigeVerwaltung auf Anzeige und DatenVerwaltung aufteilen*

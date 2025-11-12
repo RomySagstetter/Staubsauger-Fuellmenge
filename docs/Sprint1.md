@@ -4,8 +4,8 @@
 - [Vorbereitung für Sprint1](/docs/VorbereitungSprint1)
 - IDE: eclipse (java)
 - [Code für Sprint 1](/src)
-- [verwendetes Tutorial für Singelton in Java](https://www.geeksforgeeks.org/java/singleton-class-java/)
-- [verwendetes Tutorial für Java Swing](https://www.zum.de/Faecher/Inf/RP/Java/Dokumente/Java%20Tutorial%20%20Einfache%20GUI.htm)
+<!-- - [verwendetes Tutorial für Singelton in Java](https://www.geeksforgeeks.org/java/singleton-class-java/)
+- [verwendetes Tutorial für Java Swing](https://www.zum.de/Faecher/Inf/RP/Java/Dokumente/Java%20Tutorial%20%20Einfache%20GUI.htm)-->
 
 ## das ist neu
 

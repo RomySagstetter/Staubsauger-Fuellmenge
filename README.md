@@ -31,5 +31,6 @@
 
 - IDE: eclipse (java)
 - [Code für Sprint 1](/src)
+- [verwendetes Tutorial für Singelton in Java](https://www.geeksforgeeks.org/java/singleton-class-java/)
 
 *Anmerkung für Sprint2: AnzeigeVerwaltung auf Anzeige und DatenVerwaltung aufteilen*

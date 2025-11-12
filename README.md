@@ -24,6 +24,7 @@
 - Design Pattern: Singelton
 
  🠖 ändern des Klassendiagramms 
+ 
 ![](/docs/Graphiken/UMLSingelton.png)
 
 ## Übung vom 13.11.2025

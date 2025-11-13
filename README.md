@@ -22,7 +22,7 @@
 
 🠖 Sequenz- und Kommunikationsdiagramm hinzugefügt
 
-🠖 Verlinkung der Tracability-Matrix
+🠖 Verlinkung der Tracability-Matrix überprüft
 
 ## Übung vom 6.11.2025 ✓
 

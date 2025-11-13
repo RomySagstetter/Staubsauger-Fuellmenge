@@ -32,13 +32,13 @@ public class Fuellstandsensor {
         return maxFuellstand;
     }
 
-    /* vereinfacht: Not-Aus aktivieren */
+    /* Not-Aus aktivieren */
     public synchronized boolean NotAus() {
         notAus = true;
         return notAus;
     }
 
-    /* nur wenn Füllbeutel gewechselt wurde: Reset */
+    /* NotAus deaktivieren */
     public synchronized boolean stoppNotAus() {
         fuellstand = 0;
         notAus = false;

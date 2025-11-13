@@ -18,6 +18,11 @@
 - [Vorbereitung für Sprint 1](/docs/VorbereitungSprint1.md)
 - [Tracability](/docs/Tracability.md)
 
+🠖 UML-Diagramm überarbeitet
+🠖 Sequenz- und Kommunikationsdiagramm hinzugefügt
+🠖 Verlinkung der Tracability
+
+
 ## Übung vom 6.11.2025 ✓
 
 - [Modulstrucktur](/src)

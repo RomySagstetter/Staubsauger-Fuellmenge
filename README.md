@@ -19,9 +19,10 @@
 - [Tracability](/docs/Tracability.md)
 
 🠖 UML-Diagramm überarbeitet
-🠖 Sequenz- und Kommunikationsdiagramm hinzugefügt
-🠖 Verlinkung der Tracability
 
+🠖 Sequenz- und Kommunikationsdiagramm hinzugefügt
+
+🠖 Verlinkung der Tracability-Matrix
 
 ## Übung vom 6.11.2025 ✓
 

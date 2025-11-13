@@ -36,6 +36,7 @@ public class GUI extends JFrame {
         // Komponenten anlegen
         fuellstandProzentField = new JTextField();
         fuellstandProzentField.setEditable(false);
+        fuellstandProzentField.setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 24));
 
         messageField = new JTextField();
         messageField.setEditable(false);
@@ -47,7 +48,7 @@ public class GUI extends JFrame {
         fuellstandProzentField.setBounds(5, 10, 400, 25);
         messageField.setBounds(5, 80, 400, 25);
         saugenButton.setBounds(5, 110, 120, 30);
-        wechselnButton.setBounds(260, 110, 140, 30);
+        wechselnButton.setBounds(200, 110, 200, 30);
 
         // Listener: Saugen -> erhöht Füllstand, solange gedrückt
         Timer saugTimer = new Timer(100, e -> {
@@ -92,7 +93,7 @@ public class GUI extends JFrame {
         this.getContentPane().add(saugenButton);
         this.getContentPane().add(wechselnButton);
 
-        this.setSize(420, 180);
+        this.setSize(420, 200);
         this.setResizable(false);
         this.setLocationRelativeTo(null);
 

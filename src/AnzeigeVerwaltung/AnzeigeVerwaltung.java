@@ -18,9 +18,6 @@ public class AnzeigeVerwaltung {
         return single_instance;
     }
 
-    /**
-     * @return true, wenn Füllstand >= 100%
-     */
     public boolean GrenzeErreicht() {
         double wert = datenVerwaltung.getFuellstandProzent();
         if (wert >= 1.0) {

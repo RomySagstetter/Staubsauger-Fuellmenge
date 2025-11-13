@@ -4,7 +4,7 @@ import AnzeigeVerwaltung.AnzeigeVerwaltung;
 import DatenVerwaltung.DatenVerwaltung;
 
 /**
- * Steuerklasse für Anzeige. Die GUI verwaltet ihre eigenen Updates per Timer.
+ * GUI verwaltet eigene Updates per Timer.
  */
 public class Anzeige {
 
@@ -16,7 +16,7 @@ public class Anzeige {
     private Anzeige() {
         this.anzeigeVerwaltung = AnzeigeVerwaltung.getInstance();
         this.datenVerwaltung = DatenVerwaltung.getInstance();
-        this.gui = new GUI(this); // GUI bekommt Referenz, um Aktionen auszulösen
+        this.gui = new GUI(this);
     }
 
     public static synchronized Anzeige getInstance() {
@@ -26,16 +26,14 @@ public class Anzeige {
     }
 
     /**
-     * Zeigt die Anzeige an. GUI startet eigene Timer zur Aktualisierung.
+     * Zeigt die Anzeige an
+     * GUI startet eigene Timer zur Aktualisierung.
      */
     public void showAnzeige() {
         gui.setLocation(10, 10);
         gui.setVisible(true);
     }
 
-    /**
-     * Wird aufgerufen, wenn Füllbeutel gewechselt werden soll.
-     */
     public boolean FuellbeutelWechseln() {
         return datenVerwaltung.stoppNotAus();
     }

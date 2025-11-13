@@ -82,7 +82,6 @@ public class GUI extends JFrame {
         this.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
-                // Stoppen ggf. Timer (hier nicht nötig), dann exit
                 System.exit(0);
             }
         });
@@ -107,7 +106,6 @@ public class GUI extends JFrame {
 
     /**
      * Aktualisiert Textfelder und Farben anhand des aktuellen Zustands.
-     * Läuft auf EDT durch Timer.
      */
     private void updateAnzeige() {
         double prozent = datenVerwaltung.getFuellstandProzent() * 100.0;

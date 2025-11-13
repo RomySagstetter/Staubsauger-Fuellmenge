@@ -13,7 +13,7 @@
 - [Tracability](/docs/Tracability.md)
 - [Architektur](/docs/Architektur.md)
 
-## Übung vom 30.10.2025 (unfertig)
+## Übung vom 30.10.2025 (überarbeitet)
 
 - [Vorbereitung für Sprint 1](/docs/VorbereitungSprint1.md)
 - [Tracability](/docs/Tracability.md)

@@ -18,11 +18,7 @@ public class DatenVerwaltung {
         return single_instance;
     }
 
-    /**
-     * @return Füllstand als Wert zwischen 0.0 und 1.0
-     */
     public double getFuellstandProzent() {
-        // Gleitkomma-Division, sonst nur 0 oder 1
         return (double) sensor.getFuellstand() / (double) sensor.getMaxFuellstand();
     }
 

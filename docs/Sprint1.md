@@ -21,3 +21,12 @@ Während der Implementierung für den ersten Sprint haben sich in dem Softwarede
 ### UML mit den nötigen Änderungen
 
 ![](/docs/Graphiken/UMLImplementierung1.png)
+
+
+## Testfälle
+| **Testfall** | **Definition** | **Abweichung von erwartetem Verhalten** 
+|--------------|----------------|----------------------------------------------------
+
+## Tracbility
+
+[Tracability](/docs/Tracability.md)

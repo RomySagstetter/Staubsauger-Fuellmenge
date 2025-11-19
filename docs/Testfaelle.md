@@ -7,6 +7,7 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 - Die erwartete Reaktion bzw. das Ergebnis beschrieben wird.
 - Die Nachbedingung beschrieben wird, die nach Ausführung des Testfalls herrschen soll.
 
+# auf Modulebene
 ### 1. Testfall
 
 
@@ -16,6 +17,18 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 
 
 ### 3. Testfall
+
+# auf Integrationsebene
+### 1. Testfall
+
+
+
+### 2. Testfall
+
+
+
+### 3. Testfall
+
 
 
 ## [Tracbility-Matrix](/docs/Tracability)

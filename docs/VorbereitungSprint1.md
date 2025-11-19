@@ -62,7 +62,7 @@ Die ausgewählten Requirements umfassen nur die aller nötigsten für eine funkt
 
 ### Sequenzdiagramm
 
-![](/docs/Graphiken/Sequenzdiagramm.png)
+![](/docs/Graphiken/SequenzdiagrammNeu.png)
 
 ### Kommunikationsdiagramm
 

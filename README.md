@@ -35,7 +35,7 @@
  
 ![](/docs/Graphiken/UMLSingelton.png)
 
-## Übung vom 13.11.2025
+## Übung vom 13.11.2025 ✓
 
 - IDE: eclipse (java)
 - [Code für Sprint 1](/src)
@@ -45,3 +45,8 @@
 - [Zusammenfassung von Sprint1](/docs/Sprint1.md)
 
 🠖 überarbeitetes UML-Diagramm in Sprint1
+
+## Übung vom 20.11.2025
+
+- [Testfälle](/docs/Testfaelle.md)
+  

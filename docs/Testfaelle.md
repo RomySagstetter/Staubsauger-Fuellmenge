@@ -1,35 +1,58 @@
 # Testfälle
 
 <ins>Ein Testfall ist dadurch charakterisiert, dass</ins>
-- Die Vorbedingung angegeben wird. Dies kann ein Systemzustand sein oder die
+- Die <ins>Vorbedingung</ins> angegeben wird. Dies kann ein Systemzustand sein oder die
 Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert wurde, etc.
-- Die Aktion beschrieben wird, die ausgeführt werden soll.
-- Die erwartete Reaktion bzw. das Ergebnis beschrieben wird.
-- Die Nachbedingung beschrieben wird, die nach Ausführung des Testfalls herrschen soll.
+- Die <ins>Aktion</ins> beschrieben wird, die ausgeführt werden soll.
+- Die erwartete <ins>Reaktion</ins> bzw. das Ergebnis beschrieben wird.
+- Die <ins>Nachbedingung</ins> beschrieben wird, die nach Ausführung des Testfalls herrschen soll.
 
 ## auf Modulebene
 ### 1. NotAus Rückgabe
-- gibt NotAus() den richtigen Wert zurück
-
+- **Vorbedingung**: maximaler Füllstand erreicht
+- **Aktion**: `NotAus()` wird aufgerufen
+- **Reaktion**: `NotAus()` gibt den Wert `true` zurück
+- **Nachbedingung**: Staubsaugefunktion (bzw. System) soll pausiert werden
+- geprüft über Konsolenausgabe, in Klasse `TestSprint1`
 
 ### 2. GrenzeErreicht Rückgabe
-- gibt Grenze erreicht den Richtigen Wert aus
+- **Vorbedingung**: Füllmenge wurde an `AnzeigeVerwaltung` übermittelt
+- **Aktion**: `GrenzeErreicht()`wird augerufen
+- **Reaktion**: `GrenzeErreicht()` gibt true bei maximaler Füllmenge und flase bei nicht maximaler Füllmenge aus
+- **Nachbedingung**: `NotAus()` wird aufegrufen
+- geprüft über Konsolenausgabe, in Klasse `TestSprint1`
 
 
 ### 3. Füllstand in Prozent Rückgabe
-- gibt FüllstandProzent den richtigen Wert aus
+- **Vorbedingung**: Füllstand wurde an `DatenVerwaltung` übermittelt
+- **Aktion**: `getFuellstandProzent()` wird aufgerufen
+- **Reaktion**: `getFuellstandProzent()` gibt den aktuellen Füllstand in Prozent aus
+- **Nachbedingung**: zurückgegebener Wert kann für Anzeige und `GrenzeErreicht()` verwendet werden
+- geprüft über Konsolenausgabe, in Klasse `TestSprint1`
 
 ## auf Integrationsebene
 ### 1. NotAus Rückgabe
-- übergibt NotAus() den richtigen Wert an DatenVerwaltung
+- **Vorbedingung**: `NotAus()` wurde aufgerufen
+- **Aktion**: `NotAus()` gibt bool Wert zurück an `DatenVerwaltung`
+- **Reaktion**: Wert wird an AnzeigeVerwaltung übermittelt
+- **Nachbedingung**: Staubsaugefunktion (bzw. System) soll pausiert werden, entsprechende Anzeige soll geschalten werden
+- geprüft über Konsolenausgabe, in Klasse `TestSprint1`
 
 
 ### 2. NotAus durchführen
-- wird NotAu() nach Aufruf in AnzeigeVerwaltung richtig ausgeführt
+- **Vorbedingung**: Störgrenze wurde erreicht
+- **Aktion**: `NotAus()` wird in `AnzeigeVerwaltung` aufgerufen
+- **Reaktion**: `NotAus()` wird in `Füllstandsensor` durchgeführt
+- **Nachbedingung**: Staubsaugefunktion (bzw. System) soll pausiert werden, entsprechende Anzeige soll geschalten werden
+- geprüft über Konsolenausgabe, in Klasse `TestSprint1`
 
 
-### 3. Datenübermittlung von saugen-Button
-- wird FüllbeutelWechseln() Aufruf in GUI richtig ausgeführt
+### 3. Datenübermittlung von FüllbeutelWechseln-Button
+- **Vorbedingung**: Button wurde gedrückt
+- **Aktion**: `FuellbeutelWechseln()` wird in `GUI` aufgerufen
+- **Reaktion**: `FuellbeutelWechseln()` wird ausgeführt
+- **Nachbedingung**: Füllstand wird auf null zurückgesetzt
+- geprüft über Konsolenausgabe, in Klasse `TestSprint1`
 
 
 ## [Tracbility-Matrix](/docs/Tracability.md)

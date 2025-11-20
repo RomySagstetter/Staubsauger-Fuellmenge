@@ -13,18 +13,10 @@
 - [Tracability](/docs/Tracability.md)
 - [Architektur](/docs/Architektur.md)
 
-## Übung vom 30.10.2025 (überarbeitet)
+## Übung vom 30.10.2025 ✓
 
 - [Vorbereitung für Sprint 1](/docs/VorbereitungSprint1.md)
 - [Tracability](/docs/Tracability.md)
-
-🠖 UML-Diagramm überarbeitet✓
-
-🠖 Sequenz- und Kommunikationsdiagramm hinzugefügt
-
-🠖Sequenzdiagramm mit Balken
-
-🠖 Verlinkung der Tracability-Matrix überprüft✓
 
 ## Übung vom 6.11.2025 ✓
 

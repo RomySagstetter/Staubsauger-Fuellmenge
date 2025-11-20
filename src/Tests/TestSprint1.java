@@ -40,6 +40,7 @@ public class TestSprint1 {
 	}
     
     public void IT2() {
+		//NotAus in GrenzeErreicht aufgerufen
     	anzeigeVerwaltung.GrenzeErreicht();
     }
 }

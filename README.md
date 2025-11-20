@@ -53,4 +53,4 @@
 - [Tracability (jetzt auch mit Klasse `GUI`)](/docs/Tracability.md)
 - [Code für Sprint 1](/src)
 
-**Anmerkung**: die [Main](/src/Test/Main1.java) Klasse um den Code auszuführen befindet sich im [Test Ordner](/src/Test)
+**Anmerkung**: die [Main](/src/Tests/Main1.java) Klasse um den Code auszuführen befindet sich im [Test Ordner](/src/Tests)

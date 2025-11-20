@@ -50,4 +50,7 @@
 
 - [Testfälle](/docs/Testfaelle.md)
 - [Zusammenfassung von Sprint1](/docs/Sprint1.md)
-- [Tracability (jetzt auch mit Klasse `GUI`)](/docs/Tracability.md)  
+- [Tracability (jetzt auch mit Klasse `GUI`)](/docs/Tracability.md)
+- [Code für Sprint 1](/src)
+
+**Anmerkung**: die [Main](/src/Test/Main1.java) Klasse um den Code auszuführen befindet sich im [Test Ordner](/src/Test)

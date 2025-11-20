@@ -21,6 +21,7 @@ public class AnzeigeVerwaltung {
     public boolean GrenzeErreicht() {
         double wert = datenVerwaltung.getFuellstandProzent();
         if (wert >= 1.0) {
+            System.out.println("Grenze erreicht");
             datenVerwaltung.NotAus();
             return true;
         }

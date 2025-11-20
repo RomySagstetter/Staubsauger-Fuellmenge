@@ -9,26 +9,27 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 
 ## auf Modulebene
 ### 1. NotAus Rückgabe
-gibt NotAus() den richtigen Wert zurück
+- gibt NotAus() den richtigen Wert zurück
 
 
-### 2. Testfall
+### 2. GrenzeErreicht Rückgabe
+- gibt Grenze erreicht den Richtigen Wert aus
 
 
-
-### 3. Testfall
+### 3. Füllstand in Prozent Rückgabe
+- gibt FüllstandProzent den richtigen Wert aus
 
 ## auf Integrationsebene
 ### 1. NotAus Rückgabe
-übergibt NotAus() den richtigen Wert an DatenVerwaltung
+- übergibt NotAus() den richtigen Wert an DatenVerwaltung
 
 
 ### 2. NotAus durchführen
-nach Aufruf in AnzeigeVerwaltung richtig aufgerufen
+- wird NotAu() nach Aufruf in AnzeigeVerwaltung richtig ausgeführt
 
 
-### 3. Testfall
-
+### 3. Datenübermittlung von saugen-Button
+- wird FüllbeutelWechseln() Aufruf in GUI richtig ausgeführt
 
 
 ## [Tracbility-Matrix](/docs/Tracability.md)

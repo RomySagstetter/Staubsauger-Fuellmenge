@@ -8,12 +8,6 @@ public class Main {
 	private static TestSprint1 test = new TestSprint1();
 
 	public static void main(String[] args) {
-		// GUI-Start auf Event Dispatch Thread
-		SwingUtilities.invokeLater(() -> {
-			Anzeige anzeige = Anzeige.getInstance();
-			anzeige.showAnzeige();
-		});
-
 		System.out.println("Test Mt1");
 		test.MT1();
 
@@ -28,6 +22,12 @@ public class Main {
 
 		System.out.println("Test It2");
 		test.IT1();
+
+		// GUI-Start auf Event Dispatch Thread
+		SwingUtilities.invokeLater(() -> {
+			Anzeige anzeige = Anzeige.getInstance();
+			anzeige.showAnzeige();
+		});
 	}
 }
 

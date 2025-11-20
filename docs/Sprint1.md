@@ -28,12 +28,12 @@ Während der Implementierung für den ersten Sprint haben sich in dem Softwarede
 
 | **ID** | **Testfall** | **Definition** | **Abweichung von erwartetem Verhalten** 
 |--------|--------------|----------------|----------------------------------------------------
-| MT1    | Rückgabewert `NotAus()` | gibt `NotAus()` nach Aufruf den korrekten Wert zurück | 
-| MT2    | Rückgabewert `GrenzeErreicht()` | gibt `GrenzeErreicht()` den richtigen Wert zurück | 
-| MT3    | Rückgabewert `getFuellstandProzent()` | gibt `getFuellstandProzent()`den richtigen Wert zurück | 
-| IT1    | Datenübermittlung `NotAus()` | wird der richtige Wert nach Aufruf von `NotAus()` an `DatenVerwaltung` übermittelt
-| IT2    | `NotAus()` in `AnzeigeVerwaltung` | wird `NotAus()`nach Aufruf in `AnzeigeVerwaltung` korrekt ausgeführt
-| IT3 | `FuellbeutelWechseln()` in `GUI` | wird `FuellbeutelWechseln()` nach Aufruf in `GUI` korrekt ausgeführt 
+| MT1    | Rückgabewert `NotAus()` | gibt `NotAus()` nach Aufruf den korrekten Wert zurück | keine Abweichung
+| MT2    | Rückgabewert `GrenzeErreicht()` | gibt `GrenzeErreicht()` den richtigen Wert zurück | keine Abweichung
+| MT3    | Rückgabewert `getFuellstandProzent()` | gibt `getFuellstandProzent()`den richtigen Wert zurück | keine Abweichung
+| IT1    | Datenübermittlung `NotAus()` | wird der richtige Wert nach Aufruf von `NotAus()` an `DatenVerwaltung` übermittelt | keine Abweichung
+| IT2    | `NotAus()` in `AnzeigeVerwaltung` | wird `NotAus()`nach Aufruf in `AnzeigeVerwaltung` korrekt ausgeführt | keine Abweichung
+| IT3    | `FuellbeutelWechseln()` in `GUI` | wird `FuellbeutelWechseln()` nach Aufruf in `GUI` korrekt ausgeführt | keine Abweichung
 
 ## Tracbility
 

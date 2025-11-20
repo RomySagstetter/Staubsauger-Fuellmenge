@@ -58,12 +58,12 @@ Die ausgewählten Requirements umfassen nur die aller nötigsten für eine funkt
 
 ### Klassendiagramm / UML
 
-![](/docs/Graphiken/UMLneu.png)
+![UML](/docs/Graphiken/UMLneu.png)
 
 ### Sequenzdiagramm
 
-![](/docs/Graphiken/SequenzdiagrammNeu.png)
+![Squenzdiagramm](/docs/Graphiken/SequenzdiagrammNeu.png)
 
 ### Kommunikationsdiagramm
 
-![](/docs/Graphiken/Kommunikationsdiagramm.png)
+![Kommunikation](/docs/Graphiken/Kommunikationsdiagramm.png)

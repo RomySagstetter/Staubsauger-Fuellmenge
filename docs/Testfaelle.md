@@ -54,6 +54,7 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 - **Nachbedingung**: Füllstand wird auf null zurückgesetzt
 - geprüft über Konsolenausgabe nachdem der Button gedrückt wurde
 
+🠖 Testfälle aus `TestSprint1` werden in `Main1` aufgerufen
 
 ## [Tracbility-Matrix](/docs/Tracability.md)
 

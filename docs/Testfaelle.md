@@ -13,14 +13,14 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 - **Aktion**: `NotAus()` wird aufgerufen
 - **Reaktion**: `NotAus()` gibt den Wert `true` zurück
 - **Nachbedingung**: Staubsaugefunktion (bzw. System) soll pausiert werden
-- geprüft über Konsolenausgabe, in Klasse `TestSprint1`
+- geprüft über Konsolenausgabe
 
 ### 2. GrenzeErreicht Rückgabe
 - **Vorbedingung**: Füllmenge wurde an `AnzeigeVerwaltung` übermittelt
 - **Aktion**: `GrenzeErreicht()`wird augerufen
 - **Reaktion**: `GrenzeErreicht()` gibt true bei maximaler Füllmenge und flase bei nicht maximaler Füllmenge aus
 - **Nachbedingung**: `NotAus()` wird aufegrufen
-- geprüft über Konsolenausgabe, in Klasse `TestSprint1`
+- geprüft über Konsolenausgabe
 
 
 ### 3. Füllstand in Prozent Rückgabe
@@ -28,7 +28,7 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 - **Aktion**: `getFuellstandProzent()` wird aufgerufen
 - **Reaktion**: `getFuellstandProzent()` gibt den aktuellen Füllstand in Prozent aus
 - **Nachbedingung**: zurückgegebener Wert kann für Anzeige und `GrenzeErreicht()` verwendet werden
-- geprüft über Konsolenausgabe, in Klasse `TestSprint1`
+- geprüft über Konsolenausgabe
 
 ## auf Integrationsebene
 ### 1. NotAus Rückgabe
@@ -36,7 +36,7 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 - **Aktion**: `NotAus()` gibt bool Wert zurück an `DatenVerwaltung`
 - **Reaktion**: Wert wird an AnzeigeVerwaltung übermittelt
 - **Nachbedingung**: Staubsaugefunktion (bzw. System) soll pausiert werden, entsprechende Anzeige soll geschalten werden
-- geprüft über Konsolenausgabe, in Klasse `TestSprint1`
+- geprüft über Konsolenausgabe
 
 
 ### 2. NotAus durchführen
@@ -44,7 +44,7 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 - **Aktion**: `NotAus()` wird in `AnzeigeVerwaltung` aufgerufen
 - **Reaktion**: `NotAus()` wird in `Füllstandsensor` durchgeführt
 - **Nachbedingung**: Staubsaugefunktion (bzw. System) soll pausiert werden, entsprechende Anzeige soll geschalten werden
-- geprüft über Konsolenausgabe, in Klasse `TestSprint1`
+- geprüft über Konsolenausgabe
 
 
 ### 3. Datenübermittlung von FüllbeutelWechseln-Button
@@ -52,7 +52,7 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 - **Aktion**: `FuellbeutelWechseln()` wird in `GUI` aufgerufen
 - **Reaktion**: `FuellbeutelWechseln()` wird ausgeführt
 - **Nachbedingung**: Füllstand wird auf null zurückgesetzt
-- geprüft über Konsolenausgabe, in Klasse `TestSprint1`
+- geprüft über Konsolenausgabe
 
 
 ## [Tracbility-Matrix](/docs/Tracability.md)

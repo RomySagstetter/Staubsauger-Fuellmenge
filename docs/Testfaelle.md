@@ -8,8 +8,8 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 - Die Nachbedingung beschrieben wird, die nach Ausführung des Testfalls herrschen soll.
 
 ## auf Modulebene
-### 1. Testfall
-
+### 1. NotAus Rückgabe
+gibt NotAus() den richtigen Wert zurück
 
 
 ### 2. Testfall
@@ -19,12 +19,12 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 ### 3. Testfall
 
 ## auf Integrationsebene
-### 1. Testfall
+### 1. NotAus Rückgabe
+übergibt NotAus() den richtigen Wert an DatenVerwaltung
 
 
-
-### 2. Testfall
-
+### 2. NotAus durchführen
+nach Aufruf in AnzeigeVerwaltung richtig aufgerufen
 
 
 ### 3. Testfall

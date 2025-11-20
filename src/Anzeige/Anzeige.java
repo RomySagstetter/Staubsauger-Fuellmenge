@@ -35,6 +35,7 @@ public class Anzeige {
     }
 
     public boolean FuellbeutelWechseln() {
+        System.out.println("FüllbeutelWechslen in Anzeige aufgerufen");
         return datenVerwaltung.stoppNotAus();
     }
 

@@ -22,6 +22,12 @@ public class TestSprint1 {
     }
     
     public void MT2() {
+		System.out.println("für Füllstand < maxFüllstand");
+    	sensor.setFuellstand(5);
+		anzeigeVerwaltung.GrenzeErreicht();
+
+		System.out.println("für Füllstand >= maxFüllstand");
+		sensor.setFuellstand(55);
 		anzeigeVerwaltung.GrenzeErreicht();
 	}
     

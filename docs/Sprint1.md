@@ -24,8 +24,12 @@ Während der Implementierung für den ersten Sprint haben sich in dem Softwarede
 
 
 ## Testfälle
-| **Testfall** | **Definition** | **Abweichung von erwartetem Verhalten** 
-|--------------|----------------|----------------------------------------------------
+[Testfälle](/docs/Testfaelle.md)
+
+| **ID** | **Testfall** | **Definition** | **Abweichung von erwartetem Verhalten** 
+|--------|--------------|----------------|----------------------------------------------------
+| MT1    | Rückgabewert NotAus() | gibt NotAus() nach Aufruf den korrekten Wert zurück | 
+| MT2    | 
 
 ## Tracbility
 

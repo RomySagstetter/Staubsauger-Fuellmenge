@@ -49,4 +49,5 @@
 ## Übung vom 20.11.2025
 
 - [Testfälle](/docs/Testfaelle.md)
+- [Zusammenfassung von Sprint1](/docs/Sprint1.md)
   

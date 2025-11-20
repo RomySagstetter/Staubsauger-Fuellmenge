@@ -1,7 +1,7 @@
 # Sprint1
 ## Allgemeines
 
-- [Vorbereitung für Sprint1](/docs/VorbereitungSprint1)
+- [Vorbereitung für Sprint1](/docs/VorbereitungSprint1.md)
 - IDE: eclipse (java)
 - [Code für Sprint 1](/src)
 <!-- - [verwendetes Tutorial für Singelton in Java](https://www.geeksforgeeks.org/java/singleton-class-java/)

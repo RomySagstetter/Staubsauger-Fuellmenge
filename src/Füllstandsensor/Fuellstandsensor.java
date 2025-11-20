@@ -32,17 +32,17 @@ public class Fuellstandsensor {
         return maxFuellstand;
     }
 
-    /* Not-Aus aktivieren */
+    /* vereinfacht: Not-Aus aktivieren */
     public synchronized boolean NotAus() {
         notAus = true;
+        System.out.println("Füllstandsensor NotAus: " + notAus);
         return notAus;
     }
 
-    /* NotAus deaktivieren */
+    /* nur wenn Füllbeutel gewechselt wurde: Reset */
     public synchronized boolean stoppNotAus() {
         fuellstand = 0;
         notAus = false;
         return notAus;
     }
 }
-

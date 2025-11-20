@@ -5,7 +5,7 @@
 | 1.1 | Füllstandsensor | | 
 | 1.2 | DatenVerwaltung | DatenVerwaltung | Füllstand(Sensor.getSensordaten()) | | 1
 | 1.3 | Anzeige         | |
-| 2.1 | Anzeige         | Anzeige | showAnzeige(anzeigeVerwaltung.GrenzeErreicht() | | 1
+| 2.1 | Anzeige         | GUI | updateAnzeige() | | 1
 | 2.2 | Anzeige, AnzeigeVerwaltung | | 
 | 2.3 | Anzeige, Anzeigeverwaltung | | 
 | 2.4 | Anzeige         | Anzeige | showAnzeige(anzeigeVerwaltung.GrenzeErreicht() | | 1

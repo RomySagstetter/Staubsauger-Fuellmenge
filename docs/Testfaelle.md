@@ -31,9 +31,9 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 
 
 
-## [Tracbility-Matrix](/docs/Tracability)
+## [Tracbility-Matrix](/docs/Tracability.md)
 
-[Tracbility-Matrix](/docs/Tracability)
+[Tracbility-Matrix](/docs/Tracability.md)
 
 ## Dokumentation in Sprint1
 

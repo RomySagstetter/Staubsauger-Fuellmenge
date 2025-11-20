@@ -33,6 +33,7 @@ Während der Implementierung für den ersten Sprint haben sich in dem Softwarede
 | MT3    | Rückgabewert `FuellstandProzent()` | gibt `FüllstandProzent`den richtigen Wert zurück | 
 | IT1    | Datenübermittlung `NotAus()` | wird der richtige Wert nach Aufruf von `NotAus()` an `DatenVerwaltung` übermittelt
 | IT2    | `NotAus()` in `AnzeigeVerwaltung` | wird `NotAus()`nach Aufruf in `AnzeigeVerwaltung` korrekt ausgeführt
+| IT3 | `FuellbeutelWechseln()` in `GUI` | wird `FuellbeutelWechseln()` nach Aufruf in `GUI` korrekt ausgeführt 
 
 ## Tracbility
 

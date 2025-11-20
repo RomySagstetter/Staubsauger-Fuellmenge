@@ -56,7 +56,7 @@ public class GUI extends JFrame {
         	if (aktuell < sensor.getMaxFuellstand()) {
         		sensor.setFuellstand(aktuell + 1);
         		updateAnzeige();
-        	}
+        	}else {System.out.println("System wurde pausiert");}
         });
 
         saugenButton.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -75,6 +75,7 @@ public class GUI extends JFrame {
         // Listener: Wechseln -> ruft Anzeige.FuellbeutelWechseln()
         wechselnButton.addActionListener((ActionEvent e) -> {
             anzeige.FuellbeutelWechseln();
+            System.out.println("FüllbeutelWechslen in GUI aufgerufen");
             updateAnzeige();
         });
 

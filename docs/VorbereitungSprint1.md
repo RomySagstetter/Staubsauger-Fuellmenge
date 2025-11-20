@@ -66,4 +66,4 @@ Die ausgewählten Requirements umfassen nur die aller nötigsten für eine funkt
 
 ### Kommunikationsdiagramm
 
-![Kommunikation](/docs/Graphiken/Kommunikationsdiagramm.png)
+![Kommunikationsdiagramm](/docs/Graphiken/Kommunikationsdiagramm.png)

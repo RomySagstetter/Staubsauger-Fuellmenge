@@ -56,6 +56,8 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 
 🠖 Testfälle aus `TestSprint1` werden in `Main1` aufgerufen
 
+🠖 zusätzlich Testmöglichkeit über Anzeige selbst und Nachricht in Anzeige
+
 ## [Tracbility-Matrix](/docs/Tracability.md)
 
 [Tracbility-Matrix](/docs/Tracability.md)

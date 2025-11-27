@@ -48,6 +48,8 @@ Während der Implementierung für den ersten Sprint haben sich in dem Softwarede
 
 - alle für Sprint1 angesetzten Requirements wurden umgesetzt
 - auftretende Probleme würden im Verlauf von Sprint1 behoben
+- die Tracability-Matrix wurde an die neue Software-Architektur angepasst
+- alle Tests waren erfolgreich
 
 ### Änderungen für Sprint2
 

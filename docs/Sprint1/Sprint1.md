@@ -4,24 +4,6 @@
 - [Vorbereitung für Sprint1](/docs/VorbereitungSprint1.md)
 - IDE: eclipse (java)
 - [Code für Sprint 1](/src)
-<!-- - [verwendetes Tutorial für Singelton in Java](https://www.geeksforgeeks.org/java/singleton-class-java/)
-- [verwendetes Tutorial für Java Swing](https://www.zum.de/Faecher/Inf/RP/Java/Dokumente/Java%20Tutorial%20%20Einfache%20GUI.htm)-->
-
-## das ist neu
-
-### Probleme
-Während der Implementierung für den ersten Sprint haben sich in dem Softwaredesign ein paar Probleme hervorgehoben.
-
-| **Problem**                                         | **Lösung**                                  
-|-----------------------------------------------------|---------------------------------------
-| fehlende Möglichkeit den NotStopp wieder zu beenden | `stoppNotAus()` in `DatenVerwaltung` und `Fuellstandsensor`
-| Füllbeutel kann nicht gewechselt werden             | `FuellbeutelWechseln()` in `Anzeige`
-| `showAnzeige`reicht nicht aus für sinnvolle Anzeige | um `Anzeige` nicht zu überladen wird das GUI in eine eigene Klasse `GUI` ausgealgert 
-
-### UML mit den nötigen Änderungen
-
-![](/docs/Graphiken/UMLImplementierung.png)
-
 
 ## Testfälle
 [Testfälle](/docs/Testfaelle.md)
@@ -38,3 +20,29 @@ Während der Implementierung für den ersten Sprint haben sich in dem Softwarede
 ## Tracbility
 
 [Tracability](/docs/Tracability.md)
+
+## Retrospective - das ist neu
+
+### Probleme
+Während der Implementierung für den ersten Sprint haben sich in dem Softwaredesign ein paar Probleme hervorgehoben.
+
+| **Problem**                                         | **Lösung**                                  
+|-----------------------------------------------------|---------------------------------------
+| fehlende Möglichkeit den NotStopp wieder zu beenden | `stoppNotAus()` in `DatenVerwaltung` und `Fuellstandsensor`
+| Füllbeutel kann nicht gewechselt werden             | `FuellbeutelWechseln()` in `Anzeige`
+| `showAnzeige`reicht nicht aus für sinnvolle Anzeige | um `Anzeige` nicht zu überladen wird das GUI in eine eigene Klasse `GUI` ausgealgert 
+
+### UML mit den nötigen Änderungen
+
+![](/docs/Graphiken/UMLImplementierung.png)
+
+### Sequenzdiagramm mit nötigen Änderungen
+
+
+
+### Kommunikationsdiagramm mit nötigen Änderungen
+
+
+### Änderungen für Sprint2
+
+- 

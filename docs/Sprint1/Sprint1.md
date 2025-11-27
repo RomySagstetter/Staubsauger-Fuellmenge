@@ -42,7 +42,7 @@ Während der Implementierung für den ersten Sprint haben sich in dem Softwarede
 
 ### Kommunikationsdiagramm mit nötigen Änderungen
 
-![Kommunikation](/docs/KommunikationsdiagrammSprint1.png)
+![Kommunikation](/docs/Graphiken/KommunikationsdiagrammSprint1.png)
 
 ### Änderungen für Sprint2
 

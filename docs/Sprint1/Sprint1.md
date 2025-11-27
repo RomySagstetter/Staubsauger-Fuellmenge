@@ -48,6 +48,8 @@ Während der Implementierung für den ersten Sprint haben sich in dem Softwarede
 
 - alle für Sprint1 angesetzten Requirements wurden umgesetzt
 - auftretende Probleme würden im Verlauf von Sprint1 behoben
+- neue Objekte und Klassen wurden im UML-Diagramm aktualisiert
+- Sequenz- und Kommunikationsdigramm wurden überarbeitet
 - die Tracability-Matrix wurde an die neue Software-Architektur angepasst
 - alle Tests waren erfolgreich
 

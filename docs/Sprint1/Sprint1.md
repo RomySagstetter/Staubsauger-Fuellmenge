@@ -6,7 +6,7 @@
 - [Code für Sprint 1](/src)
 
 ## Testfälle
-[Testfälle](/docs/Sprint1/Testfaelle.md)
+[Testfälle](/docs/Testfaelle.md)
 
 | **ID** | **Testfall** | **Definition** | **Abweichung von erwartetem Verhalten** 
 |--------|--------------|----------------|----------------------------------------------------

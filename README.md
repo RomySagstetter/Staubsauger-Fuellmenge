@@ -49,5 +49,5 @@
 
 ## Übung vom 27.11.2025
 
-- [alle DokumentefürSprint1](/docs/Sprint1)
+- [alle Dokumente für Sprint1](/docs/Sprint1)
 - [Zusammenfassung Sprint1](/docs/Sprint1/Sprint1.md)

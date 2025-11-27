@@ -68,4 +68,4 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 
 ## Dokumentation in Sprint1
 
-[Sprint1](/docs/Sprint1.md)
+[Sprint1](/docs/Sprint1/Sprint1.md)

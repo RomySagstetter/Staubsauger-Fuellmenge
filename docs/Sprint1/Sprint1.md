@@ -44,6 +44,11 @@ Während der Implementierung für den ersten Sprint haben sich in dem Softwarede
 
 ![Kommunikation](/docs/Graphiken/KommunikationsdiagrammSprint1.png)
 
+### Baseline
+
+- alle für Sprint1 angesetzten Requirements wurden umgesetzt
+- auftretende Probleme würden im Verlauf von Sprint1 behoben
+
 ### Änderungen für Sprint2
 
 - im Moment sind für Sprint2 keine Anpassungen an der Software-Architektur vorgesehen

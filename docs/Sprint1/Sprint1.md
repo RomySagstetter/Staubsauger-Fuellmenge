@@ -34,7 +34,7 @@ Während der Implementierung für den ersten Sprint haben sich in dem Softwarede
 
 ### UML mit den nötigen Änderungen
 
-![UML](/docs/Graphiken/UMLImplementierung.png)
+![UML](/docs/Graphiken/UMLSprint1.png)
 
 ### Sequenzdiagramm mit nötigen Änderungen
 

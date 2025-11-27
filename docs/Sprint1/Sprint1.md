@@ -1,12 +1,12 @@
 # Sprint1
 ## Allgemeines
 
-- [Vorbereitung für Sprint1](/docs/VorbereitungSprint1.md)
+- [Vorbereitung für Sprint1](/docs/Sprint1/VorbereitungSprint1.md)
 - IDE: eclipse (java)
 - [Code für Sprint 1](/src)
 
 ## Testfälle
-[Testfälle](/docs/Testfaelle.md)
+[Testfälle](/docs/Sprint1/Testfaelle.md)
 
 | **ID** | **Testfall** | **Definition** | **Abweichung von erwartetem Verhalten** 
 |--------|--------------|----------------|----------------------------------------------------

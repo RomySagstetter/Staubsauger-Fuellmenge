@@ -15,7 +15,7 @@
 
 ## Übung vom 30.10.2025 ✓
 
-- [Vorbereitung für Sprint 1](/docs/VorbereitungSprint1.md)
+- [Vorbereitung für Sprint 1](/docs/Sprint1/VorbereitungSprint1.md)
 - [Tracability](/docs/Tracability.md)
 
 ## Übung vom 6.11.2025 ✓
@@ -34,14 +34,14 @@
 <!-- - [verwendetes Tutorial für Singelton in Java](https://www.geeksforgeeks.org/java/singleton-class-java/)-->
 
 *Anmerkung für Sprint2: AnzeigeVerwaltung auf Anzeige und DatenVerwaltung aufteilen*
-- [Zusammenfassung von Sprint1](/docs/Sprint1.md)
+- [Zusammenfassung von Sprint1](/docs/Sprint1/Sprint1.md)
 
 🠖 überarbeitetes UML-Diagramm in Sprint1
 
 ## Übung vom 20.11.2025
 
-- [Testfälle](/docs/Testfaelle.md)
-- [Zusammenfassung von Sprint1](/docs/Sprint1.md)
+- [Testfälle](/docs/Sprint1/Testfaelle.md)
+- [Zusammenfassung von Sprint1](/docs/Sprint1/Sprint1.md)
 - [Tracability (jetzt auch mit Klasse `GUI`)](/docs/Tracability.md)
 - [Code für Sprint 1](/src)
 

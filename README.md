@@ -46,3 +46,8 @@
 - [Code für Sprint 1](/src)
 
 **Anmerkung**: die [Main](/src/Tests/Main1.java) Klasse um den Code auszuführen befindet sich im [Test Ordner](/src/Tests)
+
+## Übung vom 27.11.2025
+
+- [alle DokumentefürSprint1](/docs/Sprint1)
+- [Zusammenfassung Sprint1](/docs/Sprint1/Sprint1.md)

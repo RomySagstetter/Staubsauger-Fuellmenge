@@ -40,7 +40,7 @@
 
 ## Übung vom 20.11.2025
 
-- [Testfälle](/docs/Testfaelle.md)
+- [Testfälle für Sprint1](/docs/Tests/TestfaelleSprint1.md)
 - [Zusammenfassung von Sprint1](/docs/Sprint1/Sprint1.md)
 - [Tracability (jetzt auch mit Klasse `GUI`)](/docs/Tracability.md)
 - [Code für Sprint 1](/src)

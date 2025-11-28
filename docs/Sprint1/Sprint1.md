@@ -55,7 +55,7 @@ Während der Implementierung für den ersten Sprint haben sich in dem Softwarede
 
 ### Baseline
 
-[v1](https://github.com/RomySagstetter/Staubsauger-Fuellmenge/releases/tag/v1)
+Stand nach Sprint1: [v1](https://github.com/RomySagstetter/Staubsauger-Fuellmenge/releases/tag/v1)
 
 ### Änderungen für Sprint2
 

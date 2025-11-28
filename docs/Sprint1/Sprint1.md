@@ -44,7 +44,7 @@ Während der Implementierung für den ersten Sprint haben sich in dem Softwarede
 
 ![Kommunikation](/docs/Graphiken/KommunikationsdiagrammSprint1.png)
 
-### Baseline
+### Zusammenfassung
 
 - alle für Sprint1 angesetzten Requirements wurden umgesetzt
 - auftretende Probleme würden im Verlauf von Sprint1 behoben
@@ -52,6 +52,8 @@ Während der Implementierung für den ersten Sprint haben sich in dem Softwarede
 - Sequenz- und Kommunikationsdigramm wurden überarbeitet
 - die Tracability-Matrix wurde an die neue Software-Architektur angepasst
 - alle Tests waren erfolgreich
+
+### Baseline
 
 ```cmd
 git clone https://github.com/RomySagstetter/Staubsauger-Fuellmenge

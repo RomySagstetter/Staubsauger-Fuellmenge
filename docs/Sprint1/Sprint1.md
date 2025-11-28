@@ -53,6 +53,11 @@ Während der Implementierung für den ersten Sprint haben sich in dem Softwarede
 - die Tracability-Matrix wurde an die neue Software-Architektur angepasst
 - alle Tests waren erfolgreich
 
+```cmd
+git clone https://github.com/RomySagstetter/Staubsauger-Fuellmenge
+git checkout v1     # Wechsel zu lauffähiger Version nach Sprint 1 (Ausführen in src/Program)
+´´´
+
 ### Änderungen für Sprint2
 
 - im Moment sind für Sprint2 keine Anpassungen an der Software-Architektur vorgesehen

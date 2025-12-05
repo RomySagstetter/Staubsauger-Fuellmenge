@@ -48,6 +48,8 @@
 | IT5    | `stoppNotAus()` durchführen           | wird `stoppNotAus()`nach Aufruf in `AnzeigeVerwaltung` korrekt ausgeführt            | keine Abweichung, Konsolenausgabe wie erwartet
 | IT6    | Übermittlung `WarngrenzeErreicht()`   | gibt `WarngrenzeErreicht()` den richtigen Wert an GUI zurück                         | keine Anweichung, Konsolenausgabe und Anzeige (orange Farbe des Füllwerts) wie erwartet
 
+**Achtung** bitte Inweise in [Testfälle](/Tests/TestfaellenSprint2.md) beachten
+
 ## Retrospevtive
 
 | **Problem**    | **Lösung**  

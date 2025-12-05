@@ -71,6 +71,12 @@
       <td>Gerätefunktion wird automatisch abgestellt. Gerät nicht nutzbar bis leerer Beutel eingestzt wird</td>
       <td>P7</td>
     </tr>
+     <tr>
+      <td>5.2</td>
+      <td>wieder Freigabe des Systems</td>
+      <td>Gerät wird nach Füllbeutelwechsel wieder nutzbar gemacht</td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
 

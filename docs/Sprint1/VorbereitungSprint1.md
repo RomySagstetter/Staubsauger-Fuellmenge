@@ -6,7 +6,7 @@
 
 - 1.2 Füllstandberechnung in Prozent
 - 2.1 Anzeige aktueller Füllstand
-- 2.4 Warnung bei Erreichen der Störgrenze
+- 2.4 intuitive Anzeige
 - 3.2 Störgrenze definieren
 - 4.2 Warnung bei Erreichen der Störgrenze
 - 5.1 Schutz bei Erreichen der Störgrenze

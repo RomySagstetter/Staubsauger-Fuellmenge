@@ -43,6 +43,8 @@ public class Fuellstandsensor {
     public synchronized boolean stoppNotAus() {
         fuellstand = 0;
         notAus = false;
+        System.out.println("Füllstandsensor stoppNotAus: " + notAus);
+        System.out.println("Füllstand nach stoppNotAus: " + fuellstand);
         return notAus;
     }
 }

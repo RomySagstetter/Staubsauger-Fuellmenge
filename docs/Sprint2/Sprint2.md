@@ -50,6 +50,8 @@
 
 **Achtung** bitte Inweise in [Testfälle](/Tests/TestfaelleSprint2.md) beachten
 
+- IT5 wird über Anzeige und daraus folgenden Konsolenausgaben geprüft
+
 ## Retrospevtive
 
 | **Problem**    | **Lösung**  

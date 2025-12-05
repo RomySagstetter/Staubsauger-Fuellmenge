@@ -42,4 +42,4 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 
 ## in Sprint2
 
-[Sprint2](/docs/Spriint2/Sprint2.md)
+[Sprint2](/docs/Sprint2/Sprint2.md)

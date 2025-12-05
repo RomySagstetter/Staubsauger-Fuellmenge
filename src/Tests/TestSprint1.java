@@ -21,26 +21,42 @@ public class TestSprint1 {
     	sensor.NotAus();
     }
     
-    public void MT2() {
-		System.out.println("für Füllstand < maxFüllstand");
+    public void MT4() {
+    	System.out.println("für Füllstand < maxFüllstand");
     	sensor.setFuellstand(5);
-		anzeigeVerwaltung.GrenzeErreicht();
-
+		anzeigeVerwaltung.stoerGrenzeErreicht();
+		
 		System.out.println("für Füllstand >= maxFüllstand");
 		sensor.setFuellstand(55);
-		anzeigeVerwaltung.GrenzeErreicht();
+		anzeigeVerwaltung.stoerGrenzeErreicht();
 	}
     
     public void MT3() {
 		datenVerwaltung.getFuellstandProzent();
 	}
     
-    public void IT1() {
+    public void MT5() {
+    	anzeigeVerwaltung.warnGrenzeErreicht();
+    }
+    
+    public void MT6() {
+    	sensor.stoppNotAus();
+    }
+    
+    public void IT4() {
+    	System.out.println("für Füllstand >= maxFüllstand");
+		sensor.setFuellstand(55);
+		anzeigeVerwaltung.stoerGrenzeErreicht();
 		datenVerwaltung.NotAus();
 	}
     
-    public void IT2() {
-		//NotAus in GrenzeErreicht aufgerufen
-    	anzeigeVerwaltung.GrenzeErreicht();
+    public void IT6() {
+    	System.out.println("für Füllstand < maxFüllstand");
+    	sensor.setFuellstand(5);
+		anzeigeVerwaltung.warnGrenzeErreicht();
+		
+		System.out.println("für Füllstand >= maxFüllstand");
+		sensor.setFuellstand(55);
+		anzeigeVerwaltung.warnGrenzeErreicht();
     }
 }

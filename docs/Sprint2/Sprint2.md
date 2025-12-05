@@ -7,7 +7,10 @@
 
 ## Requirements
 
-- 
+- 2.2 Füllstand wird automatisch aktualisiert
+- 3.1 Warngrenze definieren
+- 4.1 Warnung bei hohem Füllstand
+- 2.8 Anzeige ohne Verzögerung
 
 ## Tracability
 

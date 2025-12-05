@@ -36,7 +36,8 @@ public class GUI extends JFrame {
         // Komponenten anlegen
         fuellstandProzentField = new JTextField();
         fuellstandProzentField.setEditable(false);
-        fuellstandProzentField.setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 24));
+        fuellstandProzentField.setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 60));
+        fuellstandProzentField.setHorizontalAlignment(JTextField.CENTER);
 
         messageField = new JTextField();
         messageField.setEditable(false);
@@ -45,10 +46,10 @@ public class GUI extends JFrame {
         saugenButton = new JButton("saugen");
 
         // Positionen
-        fuellstandProzentField.setBounds(5, 10, 400, 25);
-        messageField.setBounds(5, 80, 400, 25);
+        fuellstandProzentField.setBounds(5, 10, 350, 60);
+        messageField.setBounds(5, 80, 350, 25);
         saugenButton.setBounds(5, 110, 120, 30);
-        wechselnButton.setBounds(200, 110, 200, 30);
+        wechselnButton.setBounds(130, 110, 200, 30);
 
         // Listener: Saugen -> erhöht Füllstand, solange gedrückt
         Timer saugTimer = new Timer(100, e -> {
@@ -83,6 +84,7 @@ public class GUI extends JFrame {
         this.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
+                // Stoppen ggf. Timer (hier nicht nötig), dann exit
                 System.exit(0);
             }
         });
@@ -93,7 +95,7 @@ public class GUI extends JFrame {
         this.getContentPane().add(saugenButton);
         this.getContentPane().add(wechselnButton);
 
-        this.setSize(420, 200);
+        this.setSize(350, 200);
         this.setResizable(false);
         this.setLocationRelativeTo(null);
 
@@ -107,17 +109,23 @@ public class GUI extends JFrame {
 
     /**
      * Aktualisiert Textfelder und Farben anhand des aktuellen Zustands.
+     * Läuft auf EDT durch Timer.
      */
     private void updateAnzeige() {
         double prozent = datenVerwaltung.getFuellstandProzent() * 100.0;
         String fuellText = String.format("%.0f%%", prozent);
         fuellstandProzentField.setText(fuellText);
 
-        if (anzeigeVerwaltung.GrenzeErreicht()) {
+        System.out.print("Warngrenze erreicht in GUI: " + anzeigeVerwaltung.warnGrenzeErreicht());
+        
+        if (anzeigeVerwaltung.stoerGrenzeErreicht()) {
             messageField.setText("Die maximale Füllmenge ist erreicht");
             fuellstandProzentField.setForeground(Color.RED);
+        } else if(anzeigeVerwaltung.warnGrenzeErreicht()) {
+        	messageField.setText("Der Füllbeutel ist bald voll");
+            fuellstandProzentField.setForeground(new java.awt.Color(255, 153, 0));
         } else {
-            messageField.setText("");
+            messageField.setText("OK");
             fuellstandProzentField.setForeground(Color.BLACK);
         }
     }

@@ -17,6 +17,8 @@
 
 ### UML-Diagramm
 
+![UML](/docs/Graphiken/UMLSprint2.png)
+
 ### Sequenzdiagramm
 
 ### Kommunikationsdiagramm

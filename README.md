@@ -53,3 +53,12 @@
 - [Zusammenfassung Sprint1](/docs/Sprint1/Sprint1.md)
 - [Tracability](/docs/Tracability.md)
 - [Baseline](https://github.com/RomySagstetter/Staubsauger-Fuellmenge/releases/tag/v1)
+
+## Übung vom 04.12 und 05.12.2025
+
+- [Sprint2](/docs/Sprint2/Sprint2.md)
+- [Testfälle](/Tests/TestfaelleSprint2.md)
+- [Tracability](/docs/Tracability.md)
+- [Code](/src)
+
+**Anmerkung**: die [Main](/src/Tests/Main1.java) Klasse um den Code auszuführen befindet sich im [Test Ordner](/src/Tests)

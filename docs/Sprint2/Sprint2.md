@@ -54,7 +54,14 @@
 
 ## Retrospevtive
 
-| **Problem**    | **Lösung**  
-|----------------|------------------------
+- alle Requirements wurden umgesetzt
+- es sind keine Probleme währen Sprint2 aufgetreten
+- Sprint2 hat nur minimale Veränderungen am Code benötigt:
+  - ändern von GrenzeErreicht() zu Störgreneerreicht() und WarngrenzeErreicht()
+  - Testfälle wurden in der Klasse TestfälleSprint1 neu definiert oder hinzugefügt
+  - entspr. Konsolenausgaben für tests wurden hinzugefügt
+- [Tracability-Matrix](/docs/Tracability.md) wurde angepasst
+- Diagramme wurden überarbeitet
 
 ## Baseline
+ die Baseline wird gezogen, sobald alles an der Übung stimmt um übermaßiges Neudefinieren zu vermeiden

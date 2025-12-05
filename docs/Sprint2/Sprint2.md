@@ -21,6 +21,8 @@
 
 ### Sequenzdiagramm
 
+![Sequenz](/docs/Graphiken/SequenzdiagrammSprint2.png)
+
 ### Kommunikationsdiagramm
 
 ![Kommunikation](/docs/Graphiken/KommunikationsdiagrammSprint2.png)
@@ -35,3 +37,5 @@
 
 | **Problem**    | **Lösung**  
 |----------------|------------------------
+
+## Baseline

@@ -11,6 +11,7 @@
 - 3.1 Warngrenze definieren
 - 4.1 Warnung bei hohem Füllstand
 - 2.8 Anzeige ohne Verzögerung
+- 5.2 wieder nutzbarmachen des Systems
 
 ## Tracability
 

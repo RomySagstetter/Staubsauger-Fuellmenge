@@ -34,6 +34,7 @@ public class DatenVerwaltung {
     }
 
     public boolean stoppNotAus() {
+    	System.out.println("stoppNotAus in DatenVerwaltung aufgerufen");
         return sensor.stoppNotAus();
     }
 }

@@ -18,14 +18,28 @@ public class AnzeigeVerwaltung {
         return single_instance;
     }
 
-    public boolean GrenzeErreicht() {
+    /**
+     * @return true, wenn Füllstand >= 100%
+     */
+    public boolean stoerGrenzeErreicht() {
         double wert = datenVerwaltung.getFuellstandProzent();
         if (wert >= 1.0) {
-            System.out.println("Grenze erreicht");
+        	System.out.println("Störgrenze erreicht");
+        	System.out.println("NotAus in AnzeigeVerwaltung aufrufen");
             datenVerwaltung.NotAus();
             return true;
         }
+        System.out.println("Störgrenze nicht erreicht");
+        return false;
+    }
+    
+    public boolean warnGrenzeErreicht() {
+    	double wert = datenVerwaltung.getFuellstandProzent();
+        if (wert >= 0.9) {
+        	System.out.println("Warngrenze erreicht");
+            return true;
+        }
+        System.out.println("Warngrenze nicht erreicht");
         return false;
     }
 }
-

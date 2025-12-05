@@ -29,7 +29,7 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 ### Anmerkungen
 
 - die Tests IT1 und IT2 können auf Grund veränderter Softwarestrucktur nicht mehr durchgeführt werden, sie wurden teilweise durch IT4 ersetzt
-- der Test MT2 und IT2 kann auf Grund veränderter Softwarestrucktur nicht mehr durchgeführt werden, er wurde teilweise durch MT4 ersetzt
+- der Test MT2 kann auf Grund veränderter Softwarestrucktur nicht mehr durchgeführt werden, er wurde teilweise durch MT4 ersetzt
 - alle Tests werden entweder über Konsolenausgabe oder durch die Anzeige selbst geprüft
 
 ## Code für Tests

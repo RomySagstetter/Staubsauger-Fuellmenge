@@ -31,7 +31,7 @@
 ![Kommunikation](/docs/Graphiken/KommunikationsdiagrammSprint2.png)
 
 ## Testfälle
-[Testfälle](/Tests/TestfälleSprint2.md)
+[Testfälle](/Tests/TestfaelleSprint2.md)
 
 | **ID** | **Testfall**                          | **Definition**                                                                       | **Abweichung von erwartetem Verhalten** 
 |--------|---------------------------------------|--------------------------------------------------------------------------------------|----------------------------------------------------

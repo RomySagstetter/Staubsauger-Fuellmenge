@@ -56,6 +56,9 @@ nur falls zusätzliche Überlegungen unternommen wurden
 | MT4    | Rückgabewert Störgrenze                            | gibt `StörgrenzeErreicht()` den richtigen Wert zurück                                | keine Abweichung, Konsolenausgabe wie erwartet
 | MT5    | Rückgabewert Warnrgrenze                           | gibt `WarngrenzeErreicht()` den richtigen Wert zurück                                | keine Abweichung, Konsolenausgabe wie erwartet
 | MT6    | Rückgabewert `stoppNotAus()`                       | gibt `stoppNotAus()` nach Aufruf den korrekten Wert zurück                           | keine Abweichung, Konsolenausgabe wie erwartet
+| MT7    | funktioniert `setColor()`                          | ändert sich die Textfarbe                                                            | keine Abweichung, die anzeige ändert sich wie erwartet
+| MT8    | funktioniert `setTextSize()`                       | ändert sich die Schriftgröße                                                         | keine Abweichung, die anzeige ändert sich wie erwartet
+| MT9    | funktioniert `setoutlineEnable()`                  | wird der Text umrandet                                                               | keine Abweichung, die anzeige ändert sich wie erwartet
 | ~IT1~  | ~Datenübermittlung `NotAus()`~                     | ~wird der richtige Wert nach Aufruf von `NotAus()` an `DatenVerwaltung` übermittelt~ | ~keine Abweichung, Konsolenausgabe wie erwartet~
 | ~IT2~  | ~`NotAus()` in `AnzeigeVerwaltung`~                | ~wird `NotAus()`nach Aufruf in `AnzeigeVerwaltung` korrekt ausgeführt~               | ~keine Abweichung, Konsolenausgabe wie erwartet~
 | IT3    | `FuellbeutelWechseln()` in `GUI`                   | wird `FuellbeutelWechseln()` nach Aufruf in `GUI` korrekt ausgeführt                 | keine Abweichung, Konsolenausgabe wie erwartet
@@ -64,6 +67,7 @@ nur falls zusätzliche Überlegungen unternommen wurden
 | IT6    | Übermittlung `WarngrenzeErreicht()`                | gibt `WarngrenzeErreicht()` den richtigen Wert an GUI zurück                         | keine Anweichung, Konsolenausgabe und Anzeige (orange Farbe des Füllwerts) wie erwartet
 | IT7    | umrandet `TextOutline` den Text in `GUI`           | wird Text vom Typ `TextOutline` unrandet                                             | es sind Probleme bei der Ausführung des Programms aufgetreten
 | IT8    | `FüllbeutelWechseln()` nach `StörgrenzeErreicht()` | wird Füllbeutel korrekt gewechselt                                                   | Füllmengeanzeige läuft nach Wechsel ohne Knopfdruck weiter
+
 
 **Achtung** bitte Hinweise in [Testfälle](/Tests/TestfaelleSprint3.md) beachten
 

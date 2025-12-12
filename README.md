@@ -62,3 +62,18 @@
 - [Code](/src)
 
 **Anmerkung**: die [Main](/src/Tests/Main1.java) Klasse um den Code auszuführen befindet sich im [Test Ordner](/src/Tests)
+
+## Übung vom 11.12.2025
+
+**Anmerkung zu den Übungen vom 20.11.2025, 27.11.2025, 04.12 und 05.12.2025**
+
+- die GitHub-Struktur wurde überarbeitet, der [Test-Ordner](/Tests) ist jetzt an der richtigen Stelle
+- Für Sprint1 und 2 lag der Fokus auf den funktionalen Requirements, da es einfacher ist die restlichen nicht-funktionalen Requirements zusammen umzusetzten. Als Folge dessen hat sich bei Sprint2 nicht viel geändert, die neuen Funktionalitäten (StörgrenzeErreicht und WarngrenzeErreicht) wurden ergänzt.
+- [Baseline für Sprint2](https://github.com/RomySagstetter/Staubsauger-Fuellmenge/releases/tag/v2)
+
+**für die aktuelle Übung**
+
+- [Sprint3](/docs/Sprint3/Sprint3.md)
+- [Testfälle](/Tests/TestfaelleSprint3.md)
+- [Tracability](/docs/Tracability.md)
+- [Code](/src)

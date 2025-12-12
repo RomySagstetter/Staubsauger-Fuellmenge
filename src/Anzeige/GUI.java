@@ -10,6 +10,7 @@ import javax.swing.JFrame;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import javax.swing.Timer;
+import javax.swing.border.LineBorder;
 
 import AnzeigeVerwaltung.AnzeigeVerwaltung;
 import DatenVerwaltung.DatenVerwaltung;
@@ -22,7 +23,7 @@ public class GUI extends JFrame {
     private final DatenVerwaltung datenVerwaltung = DatenVerwaltung.getInstance();
     private final Fuellstandsensor sensor = Fuellstandsensor.getInstance();
 
-    private final JTextField fuellstandProzentField;
+    private final TextOutline fuellstandProzentField;
     private final JTextField messageField;
     private final JButton wechselnButton;
     private final JButton saugenButton;
@@ -34,10 +35,11 @@ public class GUI extends JFrame {
         this.getContentPane().setLayout(null);
 
         // Komponenten anlegen
-        fuellstandProzentField = new JTextField();
-        fuellstandProzentField.setEditable(false);
-        fuellstandProzentField.setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 60));
-        fuellstandProzentField.setHorizontalAlignment(JTextField.CENTER);
+        fuellstandProzentField = new TextOutline ();
+        //outline ausschalten     
+        this.getContentPane().add(fuellstandProzentField);
+        fuellstandProzentField.setOutlineEnabled(false);
+        
 
         messageField = new JTextField();
         messageField.setEditable(false);
@@ -46,10 +48,10 @@ public class GUI extends JFrame {
         saugenButton = new JButton("saugen");
 
         // Positionen
-        fuellstandProzentField.setBounds(5, 10, 350, 60);
-        messageField.setBounds(5, 80, 350, 25);
-        saugenButton.setBounds(5, 110, 120, 30);
-        wechselnButton.setBounds(130, 110, 200, 30);
+        fuellstandProzentField.setBounds(5, 10, 350, 80);
+        messageField.setBounds(5, 90, 350, 25);
+        saugenButton.setBounds(5, 120, 120, 30);
+        wechselnButton.setBounds(130, 120, 200, 30);
 
         // Listener: Saugen -> erhöht Füllstand, solange gedrückt
         Timer saugTimer = new Timer(100, e -> {
@@ -75,6 +77,7 @@ public class GUI extends JFrame {
 
         // Listener: Wechseln -> ruft Anzeige.FuellbeutelWechseln()
         wechselnButton.addActionListener((ActionEvent e) -> {
+        	saugTimer.stop();
             anzeige.FuellbeutelWechseln();
             System.out.println("FüllbeutelWechslen in GUI aufgerufen");
             updateAnzeige();
@@ -92,7 +95,7 @@ public class GUI extends JFrame {
         // Komponenten hinzufügen
         this.getContentPane().add(fuellstandProzentField);
         this.getContentPane().add(messageField);
-        this.getContentPane().add(saugenButton);
+        
         this.getContentPane().add(wechselnButton);
 
         this.setSize(350, 200);
@@ -116,17 +119,24 @@ public class GUI extends JFrame {
         String fuellText = String.format("%.0f%%", prozent);
         fuellstandProzentField.setText(fuellText);
 
-        System.out.print("Warngrenze erreicht in GUI: " + anzeigeVerwaltung.warnGrenzeErreicht());
-        
         if (anzeigeVerwaltung.stoerGrenzeErreicht()) {
             messageField.setText("Die maximale Füllmenge ist erreicht");
-            fuellstandProzentField.setForeground(Color.RED);
+            fuellstandProzentField.setColor(Color.red);
+            fuellstandProzentField.setOutlineEnabled(true);
+            fuellstandProzentField.setTextSize(80);
+            this.getContentPane().remove(saugenButton);
+            wechselnButton.setBounds(5, 120, 320, 30);
         } else if(anzeigeVerwaltung.warnGrenzeErreicht()) {
         	messageField.setText("Der Füllbeutel ist bald voll");
-            fuellstandProzentField.setForeground(new java.awt.Color(255, 153, 0));
+            fuellstandProzentField.setColor(new java.awt.Color(255, 153, 0));
+            fuellstandProzentField.setOutlineEnabled(true);
         } else {
             messageField.setText("OK");
-            fuellstandProzentField.setForeground(Color.BLACK);
+            fuellstandProzentField.setColor(Color.BLACK);
+            fuellstandProzentField.setOutlineEnabled(false);
+            fuellstandProzentField.setTextSize(60);
+            this.getContentPane().add(saugenButton);
+            wechselnButton.setBounds(130, 120, 200, 30);
         }
     }
 }

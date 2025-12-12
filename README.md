@@ -15,7 +15,7 @@
 - [Testfälle](/Tests/TestfaelleSprint3.md)
 - [Tracability](/docs/Tracability.md)
 - [Code](/src)
-- [Baseline]()
+- [Baseline](https://github.com/RomySagstetter/Staubsauger-Fuellmenge/releases/tag/v3)
 
 ## Übung vom 04.12 und 05.12.2025
 

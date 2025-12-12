@@ -25,6 +25,7 @@ public class DatenVerwaltung {
         // Gleitkomma-Division, sonst nur 0 oder 1
     	System.out.println("Füllstand in Prozent \n aktueller Füllstand: " + sensor.getFuellstand());
     	System.out.println("in Prozent: " + (double) sensor.getFuellstand() / (double) sensor.getMaxFuellstand());
+    	System.out.println("maxFüllstand in DatenVerwaltung: " + sensor.getMaxFuellstand());
         return (double) sensor.getFuellstand() / (double) sensor.getMaxFuellstand();
     }
 
@@ -34,7 +35,6 @@ public class DatenVerwaltung {
     }
 
     public boolean stoppNotAus() {
-    	System.out.println("stoppNotAus in DatenVerwaltung aufgerufen");
         return sensor.stoppNotAus();
     }
 }

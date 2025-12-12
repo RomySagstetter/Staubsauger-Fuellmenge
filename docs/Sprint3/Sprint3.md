@@ -85,6 +85,7 @@ nur falls zusätzliche Überlegungen unternommen wurden
 ## Retrospevtive
 
 - für die Umrandung des Füllstands musste eine neue Klasse `TextOutline eingeführt werden
+
   -> `TextOutline´ hatte keine Auswirkung auf den Zeitlichenablauf des Programms
 - es trat ein Fehler während der Implementierung von `TextOutline`auf, dieser wurde behoben
 - es trat ein Fehler nach der Implementierung `TextOutline` von auf, dieser wurde behoben

@@ -1,6 +1,6 @@
 # Testfälle
 
-<ins>Ein Testfall ist dadurch charakterisiert, dass</ins>
+<ins>**Ein Testfall ist dadurch charakterisiert, dass**</ins>
 - Die <ins>Vorbedingung</ins> angegeben wird. Dies kann ein Systemzustand sein oder die
 Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert wurde, etc.
 - Die <ins>Aktion</ins> beschrieben wird, die ausgeführt werden soll.
@@ -15,22 +15,22 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 | MT3    | Rückgabewert `getFuellstandProzent()` | Füllstand wurde an `DatenVerwaltung` übermittelt |`getFuellstandProzent()` wird aufgerufen                              | `getFuellstandProzent()` gibt den aktuellen Füllstand in Prozent aus | zurückgegebener Wert kann für Anzeige und `GrenzeErreicht()` verwendet werden
 | MT4    | Rückgabewert Störgrenze               | Störgenze erreicht                               | `StörgrenzeErreicht()` wird aufgerufen                               | `StörgrenzeErreicht()` gibt *`true`* zurück                          | `NotAus()`soll aufgerufen werden
 | MT5    | Rückgabewert Warnrgrenze              | Warngrenze erreicht                              | `WarngrenzeErreicht()` wird aufgerufen                               | `WarngrenzeErreicht()` gibt *`true`* zurück                          | das Erreichen der Warngrenze soll auf der Anzeige sichtbar gemacht werden
-| MT6    | Rückgabewert `stoppNotAus()`          | ´FüllbeutelWechseln()` wurde aufgerufen          | `stoppNotAus()` wird aufgerufen                                      | `stoppNotAus()` gibt *`false`* aus                                   | `Füllstand` wir auf 0 gesetzt und Systemfunktionen freigegeben
-| MT7    | setColor()
-| MT8    | setTextSize()
-| MT9    | setoutlineEnable()
+| MT6    | Rückgabewert `stoppNotAus()`          | `FüllbeutelWechseln()` wurde aufgerufen          | `stoppNotAus()` wird aufgerufen                                      | `stoppNotAus()` gibt *`false`* aus                                   | `Füllstand` wir auf 0 gesetzt und Systemfunktionen freigegeben
+| MT7    | funktioniert `setColor()`             | die Textfarbe soll geändert werden               | `setColor()` wurde aufgerufen                                        | `setColor()`setzt die Schriftfarbe neu                               | die Anzeige ändert sich entsprechend
+| MT8    | funktioniert `setTextSize()`          | die Schriftgröße soll geändert werden            | `setTextSize()` wurde aufgerufen                                     | `setTextSize()`setzt die Schriftgröße neu                            | die Anzeige ändert sich entsprechend
+| MT9    | funktioniert `setoutlineEnable()`     | die Warn- bzw. Störgrenze wurde erreicht         | `setoutlineEnable()` wurde aufgerufen                                | `setoutlineEnable()`setzt die Schriftumrandung                       | die Anzeige ändert sich entsprechend
 
 ## auf Integrationsebene
 
-| **ID** | **Testfall**                                      | **Vorbedingung**                           | **Aktion**                                                 | **Reaktion**                                           | **Nachbedingung**
-|--------|---------------------------------------------------|--------------------------------------------|------------------------------------------------------------|--------------------------------------------------------|--------------------
-| IT3    | `FuellbeutelWechseln()` in `GUI`                  | Button wurde gedrückt                      | `FuellbeutelWechseln()` wird in `GUI` aufgerufen           | `FuellbeutelWechseln()` wird ausgeführt                | Füllstand wird auf null zurückgesetzt
-| IT4    | `NotAus()` durchführen                            | Störgrenze wurde erreicht                  | `NotAus()` wird in `AnzeigeVerwaltung` aufgerufen          | `NotAus()` wird in `Füllstandsensor` durchgeführt      | Staubsaugefunktion (bzw. System) soll pausiert werden, entsprechende Anzeige soll geschalten werden
-| IT5    | `stoppNotAus()` durchführen                       | FüllbeutelWechseln()` wurde aufgerufen     | `stoppNotAus()` wird in `Anzeige` aufgerufen               | `stoppNotAus()` wird in `Füllstandsensor` durchgeführt | `Füllstand` wir auf 0 gesetzt und Systemfunktionen freigegeben, Anzeige wird aktualisiert
-| IT6    | Übermittlung `WarngrenzeErreicht()`               | Warngrenze wurde erreicht                  | `WarngrenzeErreicht()` wird in GUI aufgerufen              | `WarngrenzeErreicht()` gibt *`true`* zurück            | Erreichen der Warngrenze wird auf der Anzeige kenntlich gemacht
-| IT7    | umrandet `TextOutline` den Text in `GUI`          | `showAnzeige`wird aufgerufen               | `fuellstandProzentField` vom Typ OutlineText wird erstellt | entsprechender Text auf Anzeige ist umrandet           | die Warngrenze ist auch für Farbenblinde eindeutig erkennbar
-| IT8    | `FüllbeutelWechseln()` nach `StörgrenzeErreicht()`| `FüllbeutelWechseln()` in `GUI` aufgerufen | `FuellbeutelWechseln()` wird in `GUI` aufgerufen           |  `FuellbeutelWechseln()` wird ausgeführt               | Füllstand wird auf null zurückgesetzt
-| IT9    | 
+| **ID** | **Testfall**                                      | **Vorbedingung**                           | **Aktion**                                                 | **Reaktion**                                             | **Nachbedingung**
+|--------|---------------------------------------------------|--------------------------------------------|------------------------------------------------------------|----------------------------------------------------------|--------------------
+| IT3    | `FuellbeutelWechseln()` in `GUI`                  | Button wurde gedrückt                      | `FuellbeutelWechseln()` wird in `GUI` aufgerufen           | `FuellbeutelWechseln()` wird ausgeführt                  | Füllstand wird auf null zurückgesetzt
+| IT4    | `NotAus()` durchführen                            | Störgrenze wurde erreicht                  | `NotAus()` wird in `AnzeigeVerwaltung` aufgerufen          | `NotAus()` wird in `Füllstandsensor` durchgeführt        | Staubsaugefunktion (bzw. System) soll pausiert werden, entsprechende Anzeige soll geschalten werden
+| IT5    | `stoppNotAus()` durchführen                       | FüllbeutelWechseln()` wurde aufgerufen     | `stoppNotAus()` wird in `Anzeige` aufgerufen               | `stoppNotAus()` wird in `Füllstandsensor` durchgeführt   | `Füllstand` wir auf 0 gesetzt und Systemfunktionen freigegeben, Anzeige wird aktualisiert
+| IT6    | Übermittlung `WarngrenzeErreicht()`               | Warngrenze wurde erreicht                  | `WarngrenzeErreicht()` wird in GUI aufgerufen              | `WarngrenzeErreicht()` gibt *`true`* zurück              | Erreichen der Warngrenze wird auf der Anzeige kenntlich gemacht
+| IT7    | umrandet `TextOutline` den Text in `GUI`          | `showAnzeige`wird aufgerufen               | `fuellstandProzentField` vom Typ OutlineText wird erstellt | entsprechender Text auf Anzeige ist umrandet             | die Warngrenze ist auch für Farbenblinde eindeutig erkennbar
+| IT8    | `FüllbeutelWechseln()` nach `StörgrenzeErreicht()`| `FüllbeutelWechseln()` in `GUI` aufgerufen | `FuellbeutelWechseln()` wird in `GUI` aufgerufen           |  `FuellbeutelWechseln()` wird ausgeführt                 | Füllstand wird auf null zurückgesetzt
+| IT9    | Übermittelt `getMaxFüllstand()`den richtigen Wert | füllstand in Prozent soll berechnet werden | `getMaxFüllstand()` wird in `DatenVerwaltung`aufgerufen    | `getMaxFüllstand()` wird in `Füllstandsensor` aufgerufen | `getMaxFüllstand()` übergibt `maxFüllstand` an `DatenVerwaltung`
 
 ### Anmerkungen
 

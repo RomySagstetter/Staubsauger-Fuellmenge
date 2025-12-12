@@ -92,4 +92,4 @@ nur falls zusätzliche Überlegungen unternommen wurden
 
 ## Baseline
 
-Stand nach Sprint3: [v3]()
+Stand nach Sprint3: [v3](https://github.com/RomySagstetter/Staubsauger-Fuellmenge/releases/tag/v3)

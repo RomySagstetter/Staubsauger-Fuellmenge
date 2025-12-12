@@ -80,6 +80,7 @@ nur falls zusätzliche Überlegungen unternommen wurden
 |--------|-------------------------------------------------|-------------------------------------------------------
 | IT7    | Fehler nach Aufruf von `TextOutline`            | Satzzeichenfehler in `TextOutline` wurde behoben
 | IT8    | Füllmengeanzeige läuft ohne Aufforderung weiter | `saugTimer.stop()` im ActionListener des Buttons aufgerufen, Timer läauft jetzt nach `FüllbeutelWechseln()` nicht mehr ohne Knopfdruck weiter
+|        | Umrandung der Schrift benötigt extra Klasse     | `TextOutline`
 
 ## Retrospevtive
 

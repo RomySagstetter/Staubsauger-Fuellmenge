@@ -1,15 +1,20 @@
 package Fuellstandsensor;
 
+import java.util.prefs.Preferences;
+
 /* misst Füllstand */
 public class Fuellstandsensor {
-
+	
     private static Fuellstandsensor single_instance = null;
+  //Persistenz
+    private final Preferences prefs = Preferences.userNodeForPackage(Fuellstandsensor.class);
 
     private int fuellstand = 0;
     private int maxFuellstand = 50;
     private boolean notAus = false;
 
     private Fuellstandsensor() {
+    	fuellstand = prefs.getInt("fuellstand", 0);
     }
 
     public static synchronized Fuellstandsensor getInstance() {
@@ -26,9 +31,11 @@ public class Fuellstandsensor {
         if (fuellstand < 0) fuellstand = 0;
         if (fuellstand > maxFuellstand) fuellstand = maxFuellstand;
         this.fuellstand = fuellstand;
+        prefs.putInt("fuellstand", fuellstand);
     }
 
     public int getMaxFuellstand() {
+    	System.out.println("maxFüllstand in Füllstandsensor: " + maxFuellstand);
         return maxFuellstand;
     }
 
@@ -43,8 +50,7 @@ public class Fuellstandsensor {
     public synchronized boolean stoppNotAus() {
         fuellstand = 0;
         notAus = false;
-        System.out.println("Füllstandsensor stoppNotAus: " + notAus);
-        System.out.println("Füllstand nach stoppNotAus: " + fuellstand);
+        prefs.putInt("fuellstand", fuellstand);
         return notAus;
     }
 }

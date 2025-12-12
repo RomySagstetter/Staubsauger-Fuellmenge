@@ -1,5 +1,9 @@
 # Tracability Matrix
 
+**Anmerkung**
+- 3.4 Robustheit wird durch Zusammenspiel der Klassen garantiert
+- 6.1 Energieeffizienz muss durch entspr. Hardware umgesetzt werden
+
 | Requirement-ID | Komponente                                  | Klasse(n)                                           | Schnittstelle(n)                                                     | Testfall     | Sprint
 |----------------|---------------------------------------------|-----------------------------------------------------|----------------------------------------------------------------------|--------------|---------
 | 1.1            | Füllstandsensor                             | Füllstandsensor                                     | getFüllstand()                                                       |              | 1
@@ -24,7 +28,3 @@
 | 5.1            | Anzeige, AnzeigeVerwaltung, DatenVerwaltung | AnzeigeVerwaltung, DatenVerwaltung, Füllstandsensor | StörgrenzeErreicht(), DatenVerwaltung.NotAus(), Füllstandsensor.NotAus() | MT1, MT4, IT4 | 1, 2  
 | 5.2            | Anzeige, Füllstandsensor                    | Anzeige, Füllstandsensor                            | stoppNotAus()                                                        | IT5           | 2
 | 6.1            | Anzeige, AnzeigeVerwaltung                  |                                                     |                                                                      |               | 3
-
-**Anmerkung**
-- 3.4 Robustheit wird durch Zusammenspiel der Klassen garantiert
-- 6.1 Energieeffizienz muss durch entspr. Hardware umgesetzt werden

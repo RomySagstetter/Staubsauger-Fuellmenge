@@ -22,14 +22,14 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 
 ## auf Integrationsebene
 
-| **ID** | **Testfall**                             | **Vorbedingung**                       | **Aktion**                                                 | **Reaktion**                                           | **Nachbedingung**
-|--------|------------------------------------------|----------------------------------------|------------------------------------------------------------|--------------------------------------------------------|--------------------
-| IT3    | `FuellbeutelWechseln()` in `GUI`         | Button wurde gedrückt                  | `FuellbeutelWechseln()` wird in `GUI` aufgerufen           | `FuellbeutelWechseln()` wird ausgeführt                | Füllstand wird auf null zurückgesetzt
-| IT4    | `NotAus()` durchführen                   | Störgrenze wurde erreicht              | `NotAus()` wird in `AnzeigeVerwaltung` aufgerufen          | `NotAus()` wird in `Füllstandsensor` durchgeführt      | Staubsaugefunktion (bzw. System) soll pausiert werden, entsprechende Anzeige soll geschalten werden
-| IT5    | `stoppNotAus()` durchführen              | FüllbeutelWechseln()` wurde aufgerufen | `stoppNotAus()` wird in `Anzeige` aufgerufen               | `stoppNotAus()` wird in `Füllstandsensor` durchgeführt | `Füllstand` wir auf 0 gesetzt und Systemfunktionen freigegeben, Anzeige wird aktualisiert
-| IT6    | Übermittlung `WarngrenzeErreicht()`      | Warngrenze wurde erreicht              | `WarngrenzeErreicht()` wird in GUI aufgerufen              | `WarngrenzeErreicht()` gibt *`true`* zurück            | Erreichen der Warngrenze wird auf der Anzeige kenntlich gemacht
-| IT7    | umrandet `TextOutline` den Text in `GUI` | `showAnzeige`wird aufgerufen           | `fuellstandProzentField` vom Typ OutlineText wird erstellt | entsprechender Text auf Anzeige ist umrandet           | die Warngrenze ist auch für Farbenblinde eindeutig erkennbar
-| IT8    | 
+| **ID** | **Testfall**                                      | **Vorbedingung**                           | **Aktion**                                                 | **Reaktion**                                           | **Nachbedingung**
+|--------|---------------------------------------------------|--------------------------------------------|------------------------------------------------------------|--------------------------------------------------------|--------------------
+| IT3    | `FuellbeutelWechseln()` in `GUI`                  | Button wurde gedrückt                      | `FuellbeutelWechseln()` wird in `GUI` aufgerufen           | `FuellbeutelWechseln()` wird ausgeführt                | Füllstand wird auf null zurückgesetzt
+| IT4    | `NotAus()` durchführen                            | Störgrenze wurde erreicht                  | `NotAus()` wird in `AnzeigeVerwaltung` aufgerufen          | `NotAus()` wird in `Füllstandsensor` durchgeführt      | Staubsaugefunktion (bzw. System) soll pausiert werden, entsprechende Anzeige soll geschalten werden
+| IT5    | `stoppNotAus()` durchführen                       | FüllbeutelWechseln()` wurde aufgerufen     | `stoppNotAus()` wird in `Anzeige` aufgerufen               | `stoppNotAus()` wird in `Füllstandsensor` durchgeführt | `Füllstand` wir auf 0 gesetzt und Systemfunktionen freigegeben, Anzeige wird aktualisiert
+| IT6    | Übermittlung `WarngrenzeErreicht()`               | Warngrenze wurde erreicht                  | `WarngrenzeErreicht()` wird in GUI aufgerufen              | `WarngrenzeErreicht()` gibt *`true`* zurück            | Erreichen der Warngrenze wird auf der Anzeige kenntlich gemacht
+| IT7    | umrandet `TextOutline` den Text in `GUI`          | `showAnzeige`wird aufgerufen               | `fuellstandProzentField` vom Typ OutlineText wird erstellt | entsprechender Text auf Anzeige ist umrandet           | die Warngrenze ist auch für Farbenblinde eindeutig erkennbar
+| IT8    | `FüllbeutelWechseln()` nach `StörgrenzeErreicht()`| `FüllbeutelWechseln()` in `GUI` aufgerufen | `FuellbeutelWechseln()` wird in `GUI` aufgerufen           |  `FuellbeutelWechseln()` wird ausgeführt               | Füllstand wird auf null zurückgesetzt
 | IT9    | 
 
 ### Anmerkungen

@@ -65,4 +65,4 @@
 - Diagramme wurden überarbeitet
 
 ## Baseline
- die Baseline wird gezogen, sobald alles an der Übung stimmt um übermaßiges Neudefinieren zu vermeiden
+Stand nach Sprint2: [v2](https://github.com/RomySagstetter/Staubsauger-Fuellmenge/releases/tag/v2)

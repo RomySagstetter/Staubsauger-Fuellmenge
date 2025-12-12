@@ -67,6 +67,7 @@ nur falls zusätzliche Überlegungen unternommen wurden
 | IT6    | Übermittlung `WarngrenzeErreicht()`                | gibt `WarngrenzeErreicht()` den richtigen Wert an GUI zurück                         | keine Anweichung, Konsolenausgabe und Anzeige (orange Farbe des Füllwerts) wie erwartet
 | IT7    | umrandet `TextOutline` den Text in `GUI`           | wird Text vom Typ `TextOutline` unrandet                                             | es sind Probleme bei der Ausführung des Programms aufgetreten
 | IT8    | `FüllbeutelWechseln()` nach `StörgrenzeErreicht()` | wird Füllbeutel korrekt gewechselt                                                   | Füllmengeanzeige läuft nach Wechsel ohne Knopfdruck weiter
+| IT9    | Rückgabewert `getMaxFüllstand()`                   | Übermittelt `getMaxFüllstand()`den richtigen Wert                                    | keine Abweichung, Konsolenausgabe wie erwartet
 
 
 **Achtung** bitte Hinweise in [Testfälle](/Tests/TestfaelleSprint3.md) beachten

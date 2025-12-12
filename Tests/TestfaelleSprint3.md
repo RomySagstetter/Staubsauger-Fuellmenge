@@ -16,9 +16,9 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 | MT4    | Rückgabewert Störgrenze               | Störgenze erreicht                               | `StörgrenzeErreicht()` wird aufgerufen                               | `StörgrenzeErreicht()` gibt *`true`* zurück                          | `NotAus()`soll aufgerufen werden
 | MT5    | Rückgabewert Warnrgrenze              | Warngrenze erreicht                              | `WarngrenzeErreicht()` wird aufgerufen                               | `WarngrenzeErreicht()` gibt *`true`* zurück                          | das Erreichen der Warngrenze soll auf der Anzeige sichtbar gemacht werden
 | MT6    | Rückgabewert `stoppNotAus()`          | ´FüllbeutelWechseln()` wurde aufgerufen          | `stoppNotAus()` wird aufgerufen                                      | `stoppNotAus()` gibt *`false`* aus                                   | `Füllstand` wir auf 0 gesetzt und Systemfunktionen freigegeben
-| MT7    | 
-| MT8    | 
-| MT9    | 
+| MT7    | setColor()
+| MT8    | setTextSize()
+| MT9    | setoutlineEnable()
 
 ## auf Integrationsebene
 

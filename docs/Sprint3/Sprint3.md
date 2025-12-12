@@ -46,29 +46,42 @@ nur falls zusätzliche Überlegungen unternommen wurden
 ![Kommunikation](/docs/Graphiken/KommunikationsdiagrammSprint2.png)
 
 ## Testfälle
-[Testfälle](/Tests/TestfaelleSprint2.md)
+[Testfälle](/Tests/TestfaelleSprint3.md)
 
-| **ID** | **Testfall**                          | **Definition**                                                                       | **Abweichung von erwartetem Verhalten** 
-|--------|---------------------------------------|--------------------------------------------------------------------------------------|----------------------------------------------------
-| MT1    | Rückgabewert `NotAus()`               | gibt `NotAus()` nach Aufruf den korrekten Wert zurück                                | keine Abweichung, Konsolenausgabe wie erwartet
-| ~MT2~  |~Rückgabewert `GrenzeErreicht()`~      |~gibt `GrenzeErreicht()` den richtigen Wert zurück~                                   |~keine Abweichung, Konsolenausgabe wie erwartet~
-| MT3    | Rückgabewert `getFuellstandProzent()` | gibt `getFuellstandProzent()`den richtigen Wert zurück                               | keine Abweichung, Konsolenausgabe wie erwartet
-| MT4    | Rückgabewert Störgrenze               | gibt `StörgrenzeErreicht()` den richtigen Wert zurück                                | keine Abweichung, Konsolenausgabe wie erwartet
-| MT5    | Rückgabewert Warnrgrenze              | gibt `WarngrenzeErreicht()` den richtigen Wert zurück                                | keine Abweichung, Konsolenausgabe wie erwartet
-| MT6    | Rückgabewert `stoppNotAus()`          | gibt `stoppNotAus()` nach Aufruf den korrekten Wert zurück                           | keine Abweichung, Konsolenausgabe wie erwartet
-| ~IT1~  | ~Datenübermittlung `NotAus()`~        | ~wird der richtige Wert nach Aufruf von `NotAus()` an `DatenVerwaltung` übermittelt~ | ~keine Abweichung, Konsolenausgabe wie erwartet~
-| ~IT2~  | ~`NotAus()` in `AnzeigeVerwaltung`~   | ~wird `NotAus()`nach Aufruf in `AnzeigeVerwaltung` korrekt ausgeführt~               | ~keine Abweichung, Konsolenausgabe wie erwartet~
-| IT3    | `FuellbeutelWechseln()` in `GUI`      | wird `FuellbeutelWechseln()` nach Aufruf in `GUI` korrekt ausgeführt                 | keine Abweichung, Konsolenausgabe wie erwartet
-| IT4    | `NotAus()` durchführen                | wird `NotAus()`nach Aufruf in `AnzeigeVerwaltung` korrekt ausgeführt                 | keine Abweichung, Konsolenausgabe wie erwartet
-| IT5    | `stoppNotAus()` durchführen           | wird `stoppNotAus()`nach Aufruf in `AnzeigeVerwaltung` korrekt ausgeführt            | keine Abweichung, Konsolenausgabe wie erwartet
-| IT6    | Übermittlung `WarngrenzeErreicht()`   | gibt `WarngrenzeErreicht()` den richtigen Wert an GUI zurück                         | keine Anweichung, Konsolenausgabe und Anzeige (orange Farbe des Füllwerts) wie erwartet
+| **ID** | **Testfall**                                       | **Definition**                                                                       | **Abweichung von erwartetem Verhalten** 
+|--------|----------------------------------------------------|--------------------------------------------------------------------------------------|----------------------------------------------------
+| MT1    | Rückgabewert `NotAus()`                            | gibt `NotAus()` nach Aufruf den korrekten Wert zurück                                | keine Abweichung, Konsolenausgabe wie erwartet
+| ~MT2~  |~Rückgabewert `GrenzeErreicht()`~                   |~gibt `GrenzeErreicht()` den richtigen Wert zurück~                                   |~keine Abweichung, Konsolenausgabe wie erwartet~
+| MT3    | Rückgabewert `getFuellstandProzent()`              | gibt `getFuellstandProzent()`den richtigen Wert zurück                               | keine Abweichung, Konsolenausgabe wie erwartet
+| MT4    | Rückgabewert Störgrenze                            | gibt `StörgrenzeErreicht()` den richtigen Wert zurück                                | keine Abweichung, Konsolenausgabe wie erwartet
+| MT5    | Rückgabewert Warnrgrenze                           | gibt `WarngrenzeErreicht()` den richtigen Wert zurück                                | keine Abweichung, Konsolenausgabe wie erwartet
+| MT6    | Rückgabewert `stoppNotAus()`                       | gibt `stoppNotAus()` nach Aufruf den korrekten Wert zurück                           | keine Abweichung, Konsolenausgabe wie erwartet
+| ~IT1~  | ~Datenübermittlung `NotAus()`~                     | ~wird der richtige Wert nach Aufruf von `NotAus()` an `DatenVerwaltung` übermittelt~ | ~keine Abweichung, Konsolenausgabe wie erwartet~
+| ~IT2~  | ~`NotAus()` in `AnzeigeVerwaltung`~                | ~wird `NotAus()`nach Aufruf in `AnzeigeVerwaltung` korrekt ausgeführt~               | ~keine Abweichung, Konsolenausgabe wie erwartet~
+| IT3    | `FuellbeutelWechseln()` in `GUI`                   | wird `FuellbeutelWechseln()` nach Aufruf in `GUI` korrekt ausgeführt                 | keine Abweichung, Konsolenausgabe wie erwartet
+| IT4    | `NotAus()` durchführen                             | wird `NotAus()`nach Aufruf in `AnzeigeVerwaltung` korrekt ausgeführt                 | keine Abweichung, Konsolenausgabe wie erwartet
+| IT5    | `stoppNotAus()` durchführen                        | wird `stoppNotAus()`nach Aufruf in `AnzeigeVerwaltung` korrekt ausgeführt            | keine Abweichung, Konsolenausgabe wie erwartet
+| IT6    | Übermittlung `WarngrenzeErreicht()`                | gibt `WarngrenzeErreicht()` den richtigen Wert an GUI zurück                         | keine Anweichung, Konsolenausgabe und Anzeige (orange Farbe des Füllwerts) wie erwartet
+| IT7    | umrandet `TextOutline` den Text in `GUI`           | wird Text vom Typ `TextOutline` unrandet                                             | es sind Probleme bei der Ausführung des Programms aufgetreten
+| IT8    | `FüllbeutelWechseln()` nach `StörgrenzeErreicht()` | wird Füllbeutel korrekt gewechselt                                                   | Füllmengeanzeige läuft nach Wechsel ohne Knopfdruck weiter
 
-**Achtung** bitte Hinweise in [Testfälle](/Tests/TestfaelleSprint2.md) beachten
+**Achtung** bitte Hinweise in [Testfälle](/Tests/TestfaelleSprint3.md) beachten
 
 - IT5 wird über Anzeige und daraus folgenden Konsolenausgaben geprüft
 
+### Probleme
+
+| **ID** | **Problem**                                     | **Lösung**
+|--------|-------------------------------------------------|-------------------------------------------------------
+| IT7    | Fehler nach Aufruf von `TextOutline`            | Satzzeichenfehler in `TextOutline` wurde behoben
+| IT8    | Füllmengeanzeige läuft ohne Aufforderung weiter | `saugTimer.stop()` im ActionListener des Buttons aufgerufen, Timer läauft jetzt nach `FüllbeutelWechseln()` nicht mehr ohne Knopfdruck weiter
+
 ## Retrospevtive
 
+- für die Umrandung des Füllstands musste eine neue Klasse `TextOutline eingeführt werden
+  -> `TextOutline´ hatte keine Auswirkung auf den Zeitlichenablauf des Programms
+- es trat ein Fehler während der Implementierung von `TextOutline`auf, dieser wurde behoben
+- 
 
 ## Baseline
 

@@ -4,6 +4,7 @@
 
 **für den ersten Sprint nur die nötigsten Requirements**
 
+- 1.1 automatische Füllstandsmessung
 - 1.2 Füllstandberechnung in Prozent
 - 2.1 Anzeige aktueller Füllstand
 - 2.4 intuitive Anzeige

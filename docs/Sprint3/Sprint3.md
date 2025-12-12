@@ -7,20 +7,27 @@
 
 ## Requirements
 
-- 1.1
-- 1.3
-- 2.3
-- 2.5
-- 2.6
-- 2.7
-- 2.9
-- 3.3
-- 3.4
-- 4.3
-- 6.1
+- 1.3 keine zusätzliche Bedienung
+- 2.3 Anzeige bei längerer Nichtbenutzung
+- 2.5 angenehme Anzeige
+- 2.6 barrierefreie Anzeige (Sehschwache)
+- 2.7 barrierefreie Anzeige (Farbenblinde)
+- 2.9 Sichtbarkeit während Nutzung
+- 3.3 Anzeigetoleranz
+- 3.4 Robustheit
+- 4.3 bemerkbare Warnung
+- 6.1 Energieeffizienz
 
 ### Umsetzung der Requirements
-- 
+
+nur falls zusätzliche Überlegungen unternommen wurden
+
+- 1.3 die Anzeige benötigt nur das Minimum an Bedienung, saugen und Beutel wechsel, alseo keine zusätzlichen Funktionen zu den gängigen Staubsaugerfunktionen
+- 2.5 geht das in JFrame?
+- 2.6 Schrift auf Buttons vergößern
+- 2.7 schwarze Umrandung bei Erreichen der Warngrenze, Entfernung des Saugen Buttens, wenn Störgrenze erreicht -> Erreichen ist eindeutig
+- 2.9 Inhalt von Anzeige ist bereits gut sichtbar, Sichtbarkeit der während Nutzung hängt nun nurnoch von Plazierung auf Gerät ab
+- 4.3 das Warnsignal wird durch die Anzeige des Füllstands übernommen und ist somit während der Nutzung und auch bei staker Geräuschkulisse warnehmbar
 
 ## Tracability
 

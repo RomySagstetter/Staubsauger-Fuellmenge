@@ -86,7 +86,9 @@ nur falls zusätzliche Überlegungen unternommen wurden
 - für die Umrandung des Füllstands musste eine neue Klasse `TextOutline eingeführt werden
   -> `TextOutline´ hatte keine Auswirkung auf den Zeitlichenablauf des Programms
 - es trat ein Fehler während der Implementierung von `TextOutline`auf, dieser wurde behoben
-- 
+- es trat ein Fehler nach der Implementierung `TextOutline` von auf, dieser wurde behoben
+- die Diagramme wurden angepasst
+- Kommunikation- und Sequenzdiagramm mussten nicht angepasst werden, da die neue Klasse als Datentyp fungiert
 
 ## Baseline
 

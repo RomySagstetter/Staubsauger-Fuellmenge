@@ -23,7 +23,7 @@
 nur falls zusätzliche Überlegungen unternommen wurden
 
 - 1.3 die Anzeige benötigt nur das Minimum an Bedienung, saugen und Beutel wechsel, alseo keine zusätzlichen Funktionen zu den gängigen Staubsaugerfunktionen
-- 2.5 geht das in JFrame?
+- 2.5 umgesetzt durch schlichte, optisch nicht überfordernde Anzeige
 - 2.6 Schrift auf Buttons vergößern
 - 2.7 schwarze Umrandung bei Erreichen der Warngrenze, Entfernung des Saugen Buttens, wenn Störgrenze erreicht -> Erreichen ist eindeutig
 - 2.9 Inhalt von Anzeige ist bereits gut sichtbar, Sichtbarkeit der während Nutzung hängt nun nurnoch von Plazierung auf Gerät ab

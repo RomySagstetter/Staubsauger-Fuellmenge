@@ -35,7 +35,7 @@ nur falls zusätzliche Überlegungen unternommen wurden
 
 ## Diagramme
 
-![UML](/docs/Graphiken/UMLSprint2.png)
+![UML](/docs/Graphiken/UMLSprint3.png)
 
 ### Sequenzdiagramm
 

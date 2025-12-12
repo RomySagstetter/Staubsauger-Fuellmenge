@@ -2,11 +2,11 @@
 
 | Requirement-ID | Komponente                                  | Klasse(n)                                           | Schnittstelle(n)                                                     | Testfall     | Sprint
 |----------------|---------------------------------------------|-----------------------------------------------------|----------------------------------------------------------------------|--------------|---------
-| 1.1            | Füllstandsensor                             | 
+| 1.1            | Füllstandsensor                             | Füllstandsensor                                     | getFüllstand()                                                       |              | 1
 | 1.2            | DatenVerwaltung                             | DatenVerwaltung                                     | getFuellstandProzent()                                               | MT3          | 1
 | 1.3            | Anzeige                                     | 
 | 2.1            | Anzeige                                     | GUI,Anzeige                                         | updateAnzeige(), FuellbeutelWechseln()                               | IT3          | 1
-| 2.2            | Anzeige, Füllstandsensor                    | GUI, Füllstandsensor                                | GUI(), setFüllstand(inr füllstand), updateAnzeige()                  |              |2
+| 2.2            | Anzeige, Füllstandsensor                    | GUI, Füllstandsensor                                | GUI(), setFüllstand(inr füllstand), updateAnzeige()                  |              | 2
 | 2.3            | Anzeige, Anzeigeverwaltung                  | 
 | 2.4            | Anzeige                                     | Anzeige, GUI                                        | showAnzeige()                                                        |              | 1
 | 2.5            | Anzeige                                     | 
@@ -21,6 +21,6 @@
 | 4.1            | Anzeige                                     | Anzeige, GUI                                        | showAnzeige(), GUI(), WarngrenzeErreicht()                           | IT6 | 2
 | 4.2            | Anzeige                                     | Anzeige, GUI                                        | showAnzeige()                                                        |               | 1
 | 4.3            | Anzeige                                     | 
-| 5.1            | Anzeige, AnzeigeVerwaltung, DatenVerwaltung | AnzeigeVerwaltung, DatenVerwaltung, Füllstandsensor | StörgrenzeErreicht(), DatenVerwaltung.NotAus(), Füllstandsensor.NotAus() | MT1, MT4, IT4 | 1,2  
+| 5.1            | Anzeige, AnzeigeVerwaltung, DatenVerwaltung | AnzeigeVerwaltung, DatenVerwaltung, Füllstandsensor | StörgrenzeErreicht(), DatenVerwaltung.NotAus(), Füllstandsensor.NotAus() | MT1, MT4, IT4 | 1, 2  
 | 5.2            | Anzeige, Füllstandsensor                    | Anzeige, Füllstandsensor                            | stoppNotAus()                                                        | IT5           | 2
 | 6.1            | Anzeige, AnzeigeVerwaltung                  | 

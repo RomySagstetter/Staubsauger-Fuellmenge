@@ -31,6 +31,8 @@ Notwendigkeit, dass ein bestimmtes Objekt existiert und lediglich initialisiert 
 | IT7    | umrandet `TextOutline` den Text in `GUI`          | `showAnzeige`wird aufgerufen               | `fuellstandProzentField` vom Typ OutlineText wird erstellt | entsprechender Text auf Anzeige ist umrandet             | die Warngrenze ist auch für Farbenblinde eindeutig erkennbar
 | IT8    | `FüllbeutelWechseln()` nach `StörgrenzeErreicht()`| `FüllbeutelWechseln()` in `GUI` aufgerufen | `FuellbeutelWechseln()` wird in `GUI` aufgerufen           |  `FuellbeutelWechseln()` wird ausgeführt                 | Füllstand wird auf null zurückgesetzt
 | IT9    | Übermittelt `getMaxFüllstand()`den richtigen Wert | füllstand in Prozent soll berechnet werden | `getMaxFüllstand()` wird in `DatenVerwaltung`aufgerufen    | `getMaxFüllstand()` wird in `Füllstandsensor` aufgerufen | `getMaxFüllstand()` übergibt `maxFüllstand` an `DatenVerwaltung`
+| IT10   | ändert `setTextSize()` die Schriftgröße in `GUI`  | `setTextSize()` wird in `GUI`aufgerufen    | `setTextSize()` wird in `TextOutline`aufgerufen            | die Schriftgröße wird geändert                           | die Schriftgröße auf der Anzeige ändert sich
+| IT11   | änder `setColor()` die Schriftfarbe               | `setColor()` wird in `GUI` aufgerufen      | `setColor()` wird in `TextOutline`aufgerufen               | die Schriftfarbe wird geändert                           | die Schriftfarbe auf der Anzeige ändert sich
 
 ### Anmerkungen
 

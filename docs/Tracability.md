@@ -14,8 +14,8 @@
 | 2.3            | Anzeige, Anzeigeverwaltung                  | Aanzeige, AnzeigeVerwaltung                         | showAnzeige()                                                        |              | 3
 | 2.4            | Anzeige                                     | Anzeige, GUI                                        | showAnzeige()                                                        |              | 1
 | 2.5            | Anzeige                                     | GUI                                                 | GUI()                                                                |              | 3
-| 2.6            | Anzeige                                     | GUI, TextOutline                                    | GUI(); setOutlineEnabled(), paintComponent()                         | MT9, MT8, MT7| 3
-| 2.7            | Anzeige                                     | GUI, TextOutline                                    | GUI(); setOutlineEnabled(), paintComponent()                         | MT9, MT8, MT7, IT7 | 3
+| 2.6            | Anzeige                                     | GUI, TextOutline                                    | GUI(); setOutlineEnabled(), paintComponent()                         | MT9, MT8, MT7, IT10 | 3
+| 2.7            | Anzeige                                     | GUI, TextOutline                                    | GUI(); setOutlineEnabled(), paintComponent()                         | MT9, MT8, MT7, IT7, IT11 | 3
 | 2.8            | Anzeige, Füllstandsensor                    | GUI, Füllstandsensor                                | updateAnzeige()                                                      |              | 2
 | 2.9            | Anzeige                                     | Anzeige, GUI                                        | GUI(), showAnzeige()                                                 |              | 3
 | 3.1            | AnzeigeVerwaltung                           | AnzeigeVerwaltung                                   | double warnGrenze                                                    |              | 2

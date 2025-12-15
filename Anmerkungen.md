@@ -16,6 +16,4 @@
   - dies wurde ebenfalls bereits im [Sprint3](/docs/Sprint3/Sprint3.md) selbst erklärt
 - das UML-Diagramm wurden entsprechend angepasst
 
-Haben Sie vor mich mit Absicht durchfallen zu lassen?
-
-**Ich wäre Ihnen dankbar Herr Becker, wenn sie Ihre Notengebung rational erklären könnten.**
+**Ich wäre Ihnen dankbar Herr Becker, wenn Sie mir Ihre Notengebung erklären könnten.**

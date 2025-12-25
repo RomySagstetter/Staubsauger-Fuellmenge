@@ -85,3 +85,7 @@ Im Bezug auf Ihre Bewertung für [Sprint2](/docs/Sprint2/Sprint2.md): Sie schrei
 - [Requirements](/docs/Requirements.md)
 - [Lastenheft](/docs/Lastenheft.md)
 - [Pflichtenheft](/docs/Pflichtenheft.md)
+
+# Erklärung 
+
+![Erklärung](/docs/Graphiken/Erklaerung.md)
